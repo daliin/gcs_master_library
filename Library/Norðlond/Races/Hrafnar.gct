@@ -248,10 +248,10 @@
 						"Disadvantage",
 						"Mental"
 					],
-					"cr": 12,
+					"cr": 15,
 					"base_points": -15,
 					"calc": {
-						"points": -15
+						"points": -7
 					}
 				},
 				{
@@ -329,7 +329,7 @@
 				}
 			],
 			"calc": {
-				"points": 12
+				"points": 20
 			}
 		},
 		{
