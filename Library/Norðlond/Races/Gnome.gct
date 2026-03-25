@@ -229,10 +229,12 @@
 		{
 			"id": "TjXJ1zgDb48CFC7Tf",
 			"name": "Gnome Gifts",
+			"reference": "NF5",
 			"children": [
 				{
 					"id": "tPONbbOOgGudH23Rb",
 					"name": "Equipment Bond (@Specific Non-Combat Tool@)",
+					"reference": "NF4",
 					"tags": [
 						"Perk",
 						"Physical"
@@ -345,6 +347,7 @@
 				{
 					"id": "tdt4pgfElaTKnNblq",
 					"name": "Artificer's Lore",
+					"reference": "NF5",
 					"tags": [
 						"Physical"
 					],

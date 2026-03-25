@@ -5,6 +5,7 @@
 		{
 			"id": "TxJJbA2pao6gyP75Q",
 			"name": "Dvergr",
+			"reference": "NF3",
 			"ancestry": "Human",
 			"container_type": "ancestry",
 			"children": [
@@ -87,6 +88,7 @@
 				{
 					"id": "t5nLox_U-pvceb1HD",
 					"name": "Lifsleikni",
+					"reference": "NF3",
 					"tags": [
 						"Physical"
 					],
@@ -356,6 +358,7 @@
 				{
 					"id": "tFMo6FW-G__Zq_Q6n",
 					"name": "Feature: Hairless",
+					"reference": "NF3",
 					"tags": [
 						"Physical"
 					],
@@ -366,6 +369,7 @@
 				{
 					"id": "tdCjSCQlTualsKu7K",
 					"name": "Feature: Armor not interchangeable with human armor",
+					"reference": "NF3",
 					"tags": [
 						"Physical"
 					],
@@ -381,10 +385,12 @@
 		{
 			"id": "TxneJmpstzVV6GnV7",
 			"name": "Dvergr Gifts",
+			"reference": "NF4",
 			"children": [
 				{
 					"id": "tT_FKf_SJaqzi-cGm",
 					"name": "Equipment Bond (@Specific Non-Combat Tool@)",
+					"reference": "NF4, DFA54",
 					"tags": [
 						"Perk",
 						"Physical"
@@ -397,7 +403,7 @@
 				{
 					"id": "tat7aZzXEOQnOWuTJ",
 					"name": "Higher Purpose",
-					"reference": "DFA27",
+					"reference": "NF4, DFA27",
 					"tags": [
 						"Advantage",
 						"Exotic",
@@ -405,17 +411,17 @@
 					],
 					"modifiers": [
 						{
-							"id": "myrjdIkv5nvIryTpU",
+							"id": "mGTxo7pdrfQA2kygI",
 							"name": "Slay Demons",
 							"disabled": true
 						},
 						{
-							"id": "mlro9NG75R94pAb-f",
+							"id": "m3XNWAg4pKdnfRxWR",
 							"name": "Slay Faeries",
 							"disabled": true
 						},
 						{
-							"id": "mDiak2qjH7-YCZCsu",
+							"id": "mTfAHIJwDVtmDSgmS",
 							"name": "Slay Dragons",
 							"disabled": true
 						}
@@ -431,6 +437,7 @@
 				{
 					"id": "ts8_2VBxE4rwiXnwd",
 					"name": "Stonecunning",
+					"reference": "NF4",
 					"tags": [
 						"Physical"
 					],

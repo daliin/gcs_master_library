@@ -5,48 +5,10 @@
 		{
 			"id": "T66uOD69xxIdvGMXa",
 			"name": "Neveri Halfling",
+			"reference": "NF7",
 			"ancestry": "Human",
 			"container_type": "ancestry",
 			"children": [
-				{
-					"id": "tCL0xS47zIh6jAuHs",
-					"name": "Bloodlust",
-					"reference": "DFA57",
-					"tags": [
-						"Disadvantage",
-						"Mental"
-					],
-					"cr": 12,
-					"base_points": -10,
-					"calc": {
-						"points": -10
-					}
-				},
-				{
-					"id": "t82mRtfK21bgDS4w3",
-					"name": "Decreased Basic Move",
-					"reference": "DFA11",
-					"tags": [
-						"Attribute",
-						"Disadvantage",
-						"Physical"
-					],
-					"points_per_level": -5,
-					"features": [
-						{
-							"type": "attribute_bonus",
-							"attribute": "basic_move",
-							"amount": -1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"levels": 1,
-					"calc": {
-						"points": -5,
-						"current_level": 1
-					}
-				},
 				{
 					"id": "t2IWsq5kAFyHqmkaY",
 					"name": "Decreased Strength",
@@ -73,6 +35,77 @@
 					}
 				},
 				{
+					"id": "tC2_rWQaf-QpeNACW",
+					"name": "Increased Dexterity",
+					"reference": "DFA8",
+					"tags": [
+						"Advantage",
+						"Attribute",
+						"Physical"
+					],
+					"points_per_level": 20,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "dx",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 20,
+						"current_level": 1
+					}
+				},
+				{
+					"id": "tTph6wkGoq23IpRiH",
+					"name": "Increased Health",
+					"reference": "DFA8",
+					"tags": [
+						"Advantage",
+						"Attribute",
+						"Physical"
+					],
+					"points_per_level": 10,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "ht",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 10,
+						"current_level": 1
+					}
+				},
+				{
+					"id": "tiYBiCYAWZBNjWbWz",
+					"name": "Reduced Size",
+					"tags": [
+						"Physical"
+					],
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "sm",
+							"amount": -1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 2,
+					"calc": {
+						"points": 0,
+						"current_level": 2
+					}
+				},
+				{
 					"id": "tQYmsHVZe6keXYbFV",
 					"name": "Extra Hit Points",
 					"reference": "DFA10",
@@ -95,6 +128,31 @@
 					"calc": {
 						"points": 4,
 						"current_level": 2
+					}
+				},
+				{
+					"id": "t82mRtfK21bgDS4w3",
+					"name": "Decreased Basic Move",
+					"reference": "DFA11",
+					"tags": [
+						"Attribute",
+						"Disadvantage",
+						"Physical"
+					],
+					"points_per_level": -5,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "basic_move",
+							"amount": -1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": -5,
+						"current_level": 1
 					}
 				},
 				{
@@ -181,122 +239,10 @@
 						}
 					],
 					"can_level": true,
-					"levels": 1,
-					"calc": {
-						"points": 5,
-						"current_level": 1
-					}
-				},
-				{
-					"id": "tC2_rWQaf-QpeNACW",
-					"name": "Increased Dexterity",
-					"reference": "DFA8",
-					"tags": [
-						"Advantage",
-						"Attribute",
-						"Physical"
-					],
-					"points_per_level": 20,
-					"features": [
-						{
-							"type": "attribute_bonus",
-							"attribute": "dx",
-							"amount": 1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"levels": 1,
-					"calc": {
-						"points": 20,
-						"current_level": 1
-					}
-				},
-				{
-					"id": "tTph6wkGoq23IpRiH",
-					"name": "Increased Health",
-					"reference": "DFA8",
-					"tags": [
-						"Advantage",
-						"Attribute",
-						"Physical"
-					],
-					"points_per_level": 10,
-					"features": [
-						{
-							"type": "attribute_bonus",
-							"attribute": "ht",
-							"amount": 1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"levels": 1,
-					"calc": {
-						"points": 10,
-						"current_level": 1
-					}
-				},
-				{
-					"id": "tiYBiCYAWZBNjWbWz",
-					"name": "Reduced Size",
-					"tags": [
-						"Physical"
-					],
-					"features": [
-						{
-							"type": "attribute_bonus",
-							"attribute": "sm",
-							"amount": -1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"levels": 2,
-					"calc": {
-						"points": 0,
-						"current_level": 2
-					}
-				},
-				{
-					"id": "tguPQx_WKCR06z2Tr",
-					"name": "Silence",
-					"reference": "DFA35",
-					"tags": [
-						"Advantage",
-						"Exotic",
-						"Physical"
-					],
-					"points_per_level": 5,
-					"features": [
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "stealth"
-							},
-							"amount": 2
-						}
-					],
-					"can_level": true,
 					"levels": 2,
 					"calc": {
 						"points": 10,
 						"current_level": 2
-					}
-				},
-				{
-					"id": "tv_TmfGtb7hfYXeoV",
-					"name": "Social Stigma (Savage)",
-					"reference": "DFA66",
-					"tags": [
-						"Disadvantage",
-						"Social"
-					],
-					"base_points": -10,
-					"calc": {
-						"points": -10
 					}
 				},
 				{
@@ -337,15 +283,71 @@
 					"calc": {
 						"points": 1
 					}
+				},
+				{
+					"id": "tguPQx_WKCR06z2Tr",
+					"name": "Silence",
+					"reference": "DFA35",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "stealth"
+							},
+							"amount": 2
+						}
+					],
+					"can_level": true,
+					"levels": 2,
+					"calc": {
+						"points": 10,
+						"current_level": 2
+					}
+				},
+				{
+					"id": "tCL0xS47zIh6jAuHs",
+					"name": "Bloodlust",
+					"reference": "DFA57",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -10,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "tv_TmfGtb7hfYXeoV",
+					"name": "Social Stigma (Savage)",
+					"reference": "DFA66",
+					"tags": [
+						"Disadvantage",
+						"Social"
+					],
+					"base_points": -10,
+					"calc": {
+						"points": -10
+					}
 				}
 			],
 			"calc": {
-				"points": -5
+				"points": 0
 			}
 		},
 		{
 			"id": "T15nznDTmhQCgCZs6",
 			"name": "Halfling Gifts",
+			"reference": "NF7",
 			"children": [
 				{
 					"id": "tikBlSMCwm_YhwGKF",

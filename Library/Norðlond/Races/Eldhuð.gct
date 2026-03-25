@@ -164,6 +164,7 @@
 		{
 			"id": "TTOgzOBLl3GwCe70X",
 			"name": "Eldhuð Gifts",
+			"reference": "NF14",
 			"local_notes": "8 points of gifts for the starting template; can add more with earned character points",
 			"template_picker": {
 				"type": "points",

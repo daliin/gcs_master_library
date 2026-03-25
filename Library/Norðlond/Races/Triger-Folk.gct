@@ -5,6 +5,7 @@
 		{
 			"id": "TH2bnFo0GZ_bPTrBg",
 			"name": "Triger-Folk",
+			"reference": "NF12",
 			"ancestry": "Human",
 			"container_type": "ancestry",
 			"children": [
@@ -62,23 +63,23 @@
 				{
 					"id": "tvqXtm4KZ0qMr2mey",
 					"name": "Extra Head",
-					"reference": "DFM10",
+					"reference": "NF12",
 					"tags": [
 						"Advantage",
 						"Physical"
 					],
-					"points_per_level": 15,
+					"points_per_level": 10,
 					"can_level": true,
 					"levels": 2,
 					"calc": {
-						"points": 30,
+						"points": 20,
 						"current_level": 2
 					}
 				},
 				{
 					"id": "t0NGVGwC8Gge_qsm2",
 					"name": "Fangs",
-					"reference": "B91",
+					"reference": "NF12",
 					"tags": [
 						"Advantage",
 						"Exotic",
@@ -87,7 +88,7 @@
 					"base_points": 2,
 					"weapons": [
 						{
-							"id": "wZPWSYTdUdDhpcJmF",
+							"id": "wMpwuByGDhOi8Hlw9",
 							"sv": 1,
 							"damage": {
 								"type": "imp",
@@ -455,6 +456,7 @@
 				{
 					"id": "t9L9nBxgSUJrb4jJs",
 					"name": "Feature: Torso armor not interchangeable with that of other races.",
+					"reference": "NF12",
 					"tags": [
 						"Physical"
 					],
@@ -465,25 +467,37 @@
 				{
 					"id": "tB-OIq6fdSstFDWsI",
 					"name": "Feature: Sterile",
+					"reference": "NF12",
 					"tags": [
 						"Physical"
 					],
 					"calc": {
 						"points": 0
 					}
+				},
+				{
+					"id": "tSDl9KZgVEvUHPIMG",
+					"name": "Feature: Tail",
+					"reference": "NF12",
+					"local_notes": "Not prehensile; can be tucked into clothing or armor",
+					"calc": {
+						"points": 0
+					}
 				}
 			],
 			"calc": {
-				"points": 50
+				"points": 40
 			}
 		},
 		{
 			"id": "TMaDc9q4DE7H3g8y2",
 			"name": "Triger-Folk Gifts",
+			"reference": "NF12",
 			"children": [
 				{
 					"id": "tUZk2D8z2byFd6pgD",
 					"name": "Iron Jaws",
+					"reference": "NF12",
 					"local_notes": "+5 to ST for biting only.",
 					"tags": [
 						"Physical"

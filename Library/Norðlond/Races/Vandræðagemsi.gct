@@ -5,6 +5,7 @@
 		{
 			"id": "TkWPqLGuLUC7n94kT",
 			"name": "Vandræðagemsi",
+			"reference": "NF16",
 			"ancestry": "Human",
 			"container_type": "ancestry",
 			"children": [
@@ -82,6 +83,7 @@
 				{
 					"id": "tINlp3g9jMC47_u-b",
 					"name": "Craftiness",
+					"reference": "NF16",
 					"tags": [
 						"Physical"
 					],
@@ -170,6 +172,7 @@
 				{
 					"id": "tuF5Fm7XHMxZB1n45",
 					"name": "Doodads",
+					"reference": "NF16",
 					"tags": [
 						"Physical"
 					],
@@ -370,6 +373,7 @@
 		{
 			"id": "TW_8vKgD5Ntf1LGgr",
 			"name": "Vandræðagemsi Gifts",
+			"reference": "NF16",
 			"children": [
 				{
 					"id": "tMo0IFJjm-HurnvkK",
@@ -406,6 +410,7 @@
 				{
 					"id": "tBJ6-g5E-lgtdYJpx",
 					"name": "Illusion Magery",
+					"reference": "NF16",
 					"tags": [
 						"Advantage",
 						"Mental",

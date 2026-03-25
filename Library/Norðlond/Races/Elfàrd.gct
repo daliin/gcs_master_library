@@ -5,6 +5,7 @@
 		{
 			"id": "TCa80FQd506487tgj",
 			"name": "Elfàrd",
+			"reference": "NF4",
 			"children": [
 				{
 					"id": "tNfJrAhPrWw_jOtYE",
@@ -356,6 +357,7 @@
 				{
 					"id": "tx9h7gj0XJ7_Jy1PT",
 					"name": "Feature: White, silver, or gold hair",
+					"reference": "NF4",
 					"tags": [
 						"Physical"
 					],
@@ -371,6 +373,7 @@
 		{
 			"id": "TlxkLfSAhcvBgEg0p",
 			"name": "Elfàrd Gifts",
+			"reference": "NF5",
 			"children": [
 				{
 					"id": "t-pv5eqhG_dfTJVcX",
@@ -474,6 +477,7 @@
 				{
 					"id": "tlcJGAY-mZe_wBCUo",
 					"name": "Elven Glamour",
+					"reference": "NF5",
 					"local_notes": "Does not work in areas with low or no mana.",
 					"tags": [
 						"Physical"

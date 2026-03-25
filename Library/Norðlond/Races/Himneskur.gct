@@ -5,6 +5,7 @@
 		{
 			"id": "TXQyGV7tj50PqL8tY",
 			"name": "Himneskur",
+			"reference": "NF15",
 			"ancestry": "Human",
 			"container_type": "ancestry",
 			"children": [
@@ -102,10 +103,10 @@
 						}
 					],
 					"can_level": true,
-					"levels": 0.5,
+					"levels": 2,
 					"calc": {
-						"points": 3,
-						"current_level": 0.5
+						"points": 10,
+						"current_level": 2
 					}
 				},
 				{
@@ -155,6 +156,7 @@
 				{
 					"id": "tbsqz0Bdlz6TtyQ5c",
 					"name": "Covenant of Rest",
+					"reference": "NF15",
 					"tags": [
 						"Physical"
 					],
@@ -180,6 +182,7 @@
 				{
 					"id": "t5-MDq2GIeeb3howU",
 					"name": "Demonic Enmity",
+					"reference": "NF15",
 					"tags": [
 						"Physical"
 					],
@@ -266,12 +269,13 @@
 				}
 			],
 			"calc": {
-				"points": 33
+				"points": 40
 			}
 		},
 		{
 			"id": "TlarGo1hRt44xfGu4",
 			"name": "Himneskur Gifts",
+			"reference": "NF15",
 			"children": [
 				{
 					"id": "tj1LlN0BHypgijM5t",

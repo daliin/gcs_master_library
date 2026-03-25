@@ -5,6 +5,7 @@
 		{
 			"id": "TyV0ex_uB7pnkTnN_",
 			"name": "Hálfálfar",
+			"reference": "NF6",
 			"ancestry": "Human",
 			"container_type": "ancestry",
 			"children": [
@@ -56,6 +57,22 @@
 					"levels": 1,
 					"calc": {
 						"points": 5,
+						"current_level": 1
+					}
+				},
+				{
+					"id": "t-0PsPCU8goK9ea4r",
+					"name": "Acute Mage Sense",
+					"reference": "NF6",
+					"local_notes": "+1/level to Perception rolls ot sense changes in mana level or detect magical items.",
+					"tags": [
+						"Physical"
+					],
+					"points_per_level": 2,
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 2,
 						"current_level": 1
 					}
 				},
@@ -119,21 +136,6 @@
 					}
 				},
 				{
-					"id": "t-0PsPCU8goK9ea4r",
-					"name": "Acute Mage Sense",
-					"local_notes": "+1/level to Perception rolls ot sense changes in mana level or detect magical items.",
-					"tags": [
-						"Physical"
-					],
-					"points_per_level": 2,
-					"can_level": true,
-					"levels": 1,
-					"calc": {
-						"points": 2,
-						"current_level": 1
-					}
-				},
-				{
 					"id": "ti0pt77pQBShSC6Qy",
 					"name": "Magery",
 					"reference": "DFA41",
@@ -175,6 +177,7 @@
 				{
 					"id": "tPJJ217_XlNZxNhTo",
 					"name": "Resistant to Glamour",
+					"reference": "NF6",
 					"local_notes": "+1/level to Perception, IQ, or Will rolls to resist an ullusiion, see through a glamour, or notice flaws that give away an illusion's nature.",
 					"tags": [
 						"Physical"
@@ -204,6 +207,7 @@
 				{
 					"id": "t_QuqqLKONT0jk6bo",
 					"name": "Feature: White, blond, or red hair.",
+					"reference": "NF6",
 					"tags": [
 						"Physical"
 					],
@@ -214,6 +218,7 @@
 				{
 					"id": "ttJJggwQf4ZrAzdBf",
 					"name": "Feature: Vivid eye coloration that only rarely matches human shades.",
+					"reference": "NF6",
 					"tags": [
 						"Physical"
 					],
@@ -229,10 +234,12 @@
 		{
 			"id": "TcskkdDgjR3XGpXvh",
 			"name": "Hálfálfar Gifts",
+			"reference": "NF6",
 			"children": [
 				{
 					"id": "tDw8fIskQ9UwKRiH6",
 					"name": "Acute Mage Sense",
+					"reference": "NF6",
 					"local_notes": "+1/level to Perception rolls ot sense changes in mana level or detect magical items.",
 					"tags": [
 						"Physical"

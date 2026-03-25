@@ -5,6 +5,7 @@
 		{
 			"id": "TWyTyi9tYCebuCAVT",
 			"name": "Björnhjarta",
+			"reference": "NF8",
 			"ancestry": "Human",
 			"container_type": "ancestry",
 			"children": [
@@ -111,6 +112,7 @@
 				{
 					"id": "tjsqhME0jTpbVKBWF",
 					"name": "Bear Heart",
+					"reference": "NF8",
 					"tags": [
 						"Physical"
 					],
@@ -181,19 +183,23 @@
 					}
 				},
 				{
-					"id": "tNKcMMtmz7yw8W61M",
+					"id": "tO6VY7ptBD33GKg5q",
 					"name": "Cast-Iron Stomach",
-					"reference": "DFM10",
+					"reference": "NF8",
 					"tags": [
 						"Advantage",
 						"Physical"
 					],
-					"points_per_level": 1,
-					"can_level": true,
-					"levels": 1,
+					"base_points": 2,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to resist food-borne poisons or diseases",
+							"amount": 2
+						}
+					],
 					"calc": {
-						"points": 1,
-						"current_level": 1
+						"points": 2
 					}
 				},
 				{
@@ -515,16 +521,18 @@
 				}
 			],
 			"calc": {
-				"points": 39
+				"points": 40
 			}
 		},
 		{
 			"id": "TFkUsc1ngm8O-G7Sq",
 			"name": "Björnhjarta Gifts",
+			"reference": "NF9",
 			"children": [
 				{
 					"id": "tx376TelzUDt5eRo5",
 					"name": "Björnreiði",
+					"reference": "NF9",
 					"tags": [
 						"Physical"
 					],
