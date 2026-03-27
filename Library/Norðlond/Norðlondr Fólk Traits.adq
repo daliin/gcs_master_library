@@ -216,7 +216,7 @@
 		{
 			"id": "twUB1adIpMQo4yyca",
 			"name": "Cast-Iron Stomach",
-			"reference": "NF8, M10, B80",
+			"reference": "NF8, DFM10, B80",
 			"tags": [
 				"Advantage",
 				"Björnhjarta",
@@ -596,7 +596,7 @@
 		{
 			"id": "tgsjL-JkLuZVZ5r2k",
 			"name": "Extra Head",
-			"reference": "NF12, M10, B54",
+			"reference": "NF12, DFM10, B54",
 			"tags": [
 				"Advantage",
 				"Physical",
@@ -1027,7 +1027,7 @@
 		{
 			"id": "tNyKiO1VvfjOHeMD4",
 			"name": "Nictitating Membrane",
-			"reference": "NF13, M11",
+			"reference": "NF13, DFM11",
 			"local_notes": "+1 to HT rolls concerning the eyes.",
 			"tags": [
 				"Advantage",
