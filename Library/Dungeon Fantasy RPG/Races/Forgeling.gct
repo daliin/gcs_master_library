@@ -10,7 +10,12 @@
 			"container_type": "ancestry",
 			"children": [
 				{
-					"id": "tGLA4sOpD4g6IkQaX",
+					"id": "tAf-5d-_sUsaHlzJH",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "t1eZd6uX6JRd18QmZ"
+					},
 					"name": "Decreased Intelligence",
 					"reference": "DFA8",
 					"tags": [
@@ -35,7 +40,12 @@
 					}
 				},
 				{
-					"id": "tjbe8S-sZ4A2Mqxr0",
+					"id": "tSpTgE8vDM8No19x6",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "twYw6ktd3pc2h6vZC"
+					},
 					"name": "Increased Health",
 					"reference": "DFA8",
 					"tags": [
@@ -60,7 +70,12 @@
 					}
 				},
 				{
-					"id": "t2UQICqowW5Y8P0Un",
+					"id": "tHzLBI7e1BV3I4LGi",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tj_maQj_x_ZWhXaEz"
+					},
 					"name": "Increased Will",
 					"reference": "DFA10",
 					"tags": [
@@ -85,7 +100,12 @@
 					}
 				},
 				{
-					"id": "tURP0BJXC8_cdXcyg",
+					"id": "tIMoyJeZGeIo8DGho",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tCwzwYfDUhYJaZGzW"
+					},
 					"name": "Extra Fatigue Points",
 					"reference": "DFA10",
 					"tags": [
@@ -110,7 +130,12 @@
 					}
 				},
 				{
-					"id": "tNKRNqrNSeFqKy2vk",
+					"id": "tfZsUVOQwz2ouxqKv",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tIE74pd7mYSmHuBqy"
+					},
 					"name": "Increased Basic Speed",
 					"reference": "DFA11",
 					"tags": [
@@ -135,6 +160,36 @@
 					}
 				},
 				{
+					"id": "tK5GB-PWqkLIwhhmz",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tpruRmNniapVJRHjy"
+					},
+					"name": "Decreased Basic Move",
+					"reference": "DFA11",
+					"tags": [
+						"Attribute",
+						"Disadvantage",
+						"Physical"
+					],
+					"points_per_level": -5,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "basic_move",
+							"amount": -1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": -5,
+						"current_level": 1
+					}
+				},
+				{
 					"id": "taZw-G0wxvy4riU3w",
 					"name": "Damage Resistance",
 					"reference": "DFRM2:19, B46",
@@ -148,11 +203,11 @@
 					},
 					"modifiers": [
 						{
-							"id": "Mf9mjYceaVHxtov1g",
+							"id": "Md90ak54vV9z_NKIA",
 							"name": "Special Enhancements",
 							"children": [
 								{
-									"id": "mO0jhvGNOcON0dhmW",
+									"id": "mEYho3NYS4aXAyLO8",
 									"name": "Absorption",
 									"reference": "B46",
 									"local_notes": "Enhances @Trait@",
@@ -160,7 +215,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mwPsg46ykuZh70rOJ",
+									"id": "mf5LNlH2mQK6GbzpC",
 									"name": "Absorption",
 									"reference": "B46",
 									"local_notes": "Healing only",
@@ -168,7 +223,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mQNNSQg7HU_quWtJQ",
+									"id": "mkPUJeQPbUxkz_Jer",
 									"name": "Absorption",
 									"reference": "B46",
 									"local_notes": "Enhances any trait",
@@ -176,14 +231,14 @@
 									"disabled": true
 								},
 								{
-									"id": "mfDhohxtPD3sjSMxb",
+									"id": "m0oBih3Toa-bqK_Lh",
 									"name": "Force Field",
 									"reference": "B47",
 									"cost_adj": "20%",
 									"disabled": true
 								},
 								{
-									"id": "mbifb8MfyS-zSw4eo",
+									"id": "m_lF_tiV2eMg4Q-X5",
 									"name": "Hardened",
 									"reference": "B47",
 									"local_notes": "Reduces armor divisor by @Hardened level@ step(s): \"ignores DR\"→100→10→5→3→2→\"no divisor\"",
@@ -192,34 +247,34 @@
 									"disabled": true
 								},
 								{
-									"id": "msL4VfACTVBGWj9QC",
+									"id": "mo88bc455EcBfhVLP",
 									"name": "Laminate",
 									"reference": "RSWL18",
 									"cost_adj": "10%",
 									"disabled": true
 								},
 								{
-									"id": "mGQ08qiEwV3dYQGMa",
+									"id": "mp-VNXKFYzCpkZrLP",
 									"name": "Malediction-Proof",
 									"reference": "PSI14",
 									"cost_adj": "50%",
 									"disabled": true
 								},
 								{
-									"id": "mAuapAE0e0OWmZ1Zp",
+									"id": "mI8USU1vjtLS55a4u",
 									"name": "Maledictions Only",
 									"reference": "PSI14",
 									"disabled": true
 								},
 								{
-									"id": "mlU7tF9ybj_JLQhWo",
+									"id": "mHrqDd-D_jrYyTpkH",
 									"name": "Reflection",
 									"reference": "B47",
 									"cost_adj": "100%",
 									"disabled": true
 								},
 								{
-									"id": "mJqltA9iXMPRoLn9k",
+									"id": "m85fRZikp588_IH_7",
 									"name": "Mental Resilience",
 									"reference": "PY103:8",
 									"tags": [
@@ -231,18 +286,18 @@
 							]
 						},
 						{
-							"id": "MnzPbMG7XT7C2h7KM",
+							"id": "Mu8_BE6aCmliHwQT1",
 							"name": "Special Limitations",
 							"children": [
 								{
-									"id": "mOn-Z6vmckTm-l07P",
+									"id": "mmOHjn_sNeIdDd8iv",
 									"name": "Ablative",
 									"reference": "B47",
 									"cost_adj": "-80%",
 									"disabled": true
 								},
 								{
-									"id": "mo0y5uhwOPlajNFRY",
+									"id": "mmB2M7KgfaajaUDL_",
 									"name": "Bane",
 									"reference": "H14",
 									"local_notes": "@Very Common@",
@@ -250,7 +305,7 @@
 									"disabled": true
 								},
 								{
-									"id": "m_Chcf3Y551_HZCTT",
+									"id": "mYQ1VPZL80b_SQWi7",
 									"name": "Bane",
 									"reference": "H14",
 									"local_notes": "@Common@",
@@ -258,7 +313,7 @@
 									"disabled": true
 								},
 								{
-									"id": "m3xLSZHDdC_7-Joor",
+									"id": "mcPtXWxUUFoQBhnjd",
 									"name": "Bane",
 									"reference": "H14",
 									"local_notes": "@Occasional@",
@@ -266,7 +321,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mAfjn-NUOSYT1DZ9T",
+									"id": "m40pgVXbFD3C8oNIB",
 									"name": "Bane",
 									"reference": "H14",
 									"local_notes": "@Rare@",
@@ -274,14 +329,14 @@
 									"disabled": true
 								},
 								{
-									"id": "mGd_DNe_eOjO1b44u",
+									"id": "mqCrBgZOqY3-BPL6l",
 									"name": "Can't wear armor",
 									"reference": "B47",
 									"cost_adj": "-40%",
 									"disabled": true
 								},
 								{
-									"id": "mwC7FzRffBG2zumPq",
+									"id": "mvtzwDNi9QTJ3wSLl",
 									"name": "Directional",
 									"reference": "B47",
 									"local_notes": "Front",
@@ -289,7 +344,7 @@
 									"disabled": true
 								},
 								{
-									"id": "m8_SB4ZcYVtbmT2x4",
+									"id": "mm7h9wmjbneUzilBV",
 									"name": "Directional",
 									"reference": "B47",
 									"local_notes": "@Direction: Back, Right, Left, Top or Underside@",
@@ -297,14 +352,14 @@
 									"disabled": true
 								},
 								{
-									"id": "mNuSsZ0rP8HnwFGTY",
+									"id": "m7QQt9VQH-JHwnqfU",
 									"name": "Flexible",
 									"reference": "B47",
 									"cost_adj": "-20%",
 									"disabled": true
 								},
 								{
-									"id": "mBlU7HGnNT7tkJuol",
+									"id": "mhx8dOt41t4yEIefG",
 									"name": "Limited",
 									"reference": "B46",
 									"local_notes": "@Very Common Attack Form@",
@@ -312,7 +367,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mIOe_STo0WLraPi8s",
+									"id": "m8VgN31PzktKh_rFy",
 									"name": "Limited",
 									"reference": "B46",
 									"local_notes": "@Common Attack Form@",
@@ -322,7 +377,7 @@
 									}
 								},
 								{
-									"id": "m-xYR48d8ajABNrXN",
+									"id": "mjF1xiRVEoV7NKp7E",
 									"name": "Limited",
 									"reference": "B46",
 									"local_notes": "@Occasional Attack Form@",
@@ -330,7 +385,7 @@
 									"disabled": true
 								},
 								{
-									"id": "maa5CvUhOqJ3Ri6Mk",
+									"id": "mC8MAT-OdUqXnHVui",
 									"name": "Limited",
 									"reference": "B46",
 									"local_notes": "@Rare Attack Form@",
@@ -338,21 +393,21 @@
 									"disabled": true
 								},
 								{
-									"id": "mTiKTIg_j6PgqC_mV",
+									"id": "mVpMQ0WcPgaDcRIqI",
 									"name": "Partial (@Location, 1 level per -1 Per Hit Modifier, Torso is -10% thus level 1@)",
 									"reference": "B47",
 									"cost_adj": "-10%",
 									"disabled": true
 								},
 								{
-									"id": "mRO8aQ_5g7b6zLpGT",
+									"id": "mgpujjaxl9RmrZPf0",
 									"name": "Semi-Ablative",
 									"reference": "B47",
 									"cost_adj": "-20%",
 									"disabled": true
 								},
 								{
-									"id": "mMD1Ll1CZc_ZDcm7y",
+									"id": "m9XUvMkWMPw3omTFc",
 									"name": "Tough Skin",
 									"reference": "B47",
 									"local_notes": "Effects that just require skin contact or a scratch ignore this DR",
@@ -378,7 +433,7 @@
 								"torso",
 								"vitals"
 							],
-							"specialization": "burning",
+							"specialization": "heat/fire",
 							"amount": 1,
 							"per_level": true
 						}
@@ -388,31 +443,6 @@
 					"calc": {
 						"points": 75,
 						"current_level": 25
-					}
-				},
-				{
-					"id": "tOyZ9hDH28mTkkzOR",
-					"name": "Decreased Basic Move",
-					"reference": "DFA11",
-					"tags": [
-						"Attribute",
-						"Disadvantage",
-						"Physical"
-					],
-					"points_per_level": -5,
-					"features": [
-						{
-							"type": "attribute_bonus",
-							"attribute": "basic_move",
-							"amount": -1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"levels": 1,
-					"calc": {
-						"points": -5,
-						"current_level": 1
 					}
 				},
 				{
@@ -430,7 +460,12 @@
 					}
 				},
 				{
-					"id": "tuQZP0dP1ZPQZZPAj",
+					"id": "tpubj0g_70k4eAJDd",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tUAFoaogApzOHQVru"
+					},
 					"name": "Lifting ST",
 					"reference": "DFA16",
 					"tags": [
@@ -456,7 +491,12 @@
 					}
 				},
 				{
-					"id": "tuWCTxYHwUfGOF8aW",
+					"id": "t5lpZ5M6Y1XHcD9js",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "taCZh7t4rd8arBOMg"
+					},
 					"name": "No Blood",
 					"reference": "DFM11",
 					"tags": [
@@ -470,7 +510,12 @@
 					}
 				},
 				{
-					"id": "tAVmk4-ZM-3DhxcQj",
+					"id": "tg0BZHDjhvomrYEOH",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "t2wa4VcoOLr-Z_RtO"
+					},
 					"name": "Pickaxe Penchant",
 					"reference": "DFA44",
 					"tags": [
@@ -479,6 +524,12 @@
 					],
 					"points_per_level": 5,
 					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to Dodge or DX rolls to avoid falling rocks, collapsing walls, burial alive, etc.",
+							"amount": 1,
+							"per_level": true
+						},
 						{
 							"type": "skill_bonus",
 							"selection_type": "skills_with_name",
@@ -516,6 +567,10 @@
 								"compare": "is",
 								"qualifier": "thrown weapon"
 							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "axe/mace"
+							},
 							"amount": 1,
 							"per_level": true
 						},
@@ -538,7 +593,12 @@
 					}
 				},
 				{
-					"id": "tqFHfNfWXG50U-n5B",
+					"id": "tbap23FQTrfuBmJjY",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tI1caVA4ZSJEO0zPE"
+					},
 					"name": "Resistant to Disease",
 					"reference": "DFA52",
 					"tags": [
@@ -554,7 +614,12 @@
 					}
 				},
 				{
-					"id": "tbgpHHFtCqPVwomP9",
+					"id": "tBNvykR1wTV8kwxIg",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tNz_WvLrp5hMH7KRL"
+					},
 					"name": "Resistant to Poison",
 					"reference": "DFA52",
 					"tags": [
@@ -570,14 +635,27 @@
 					}
 				},
 				{
-					"id": "tHTyAK_eWULzRqcYY",
-					"name": "Temperature Tolerance (Hot)",
+					"id": "tS8VCxV6TCe9yhvwV",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tplsmFNNtQQPCrkfQ"
+					},
+					"name": "Temperature Tolerance (Heat)",
 					"reference": "DFA16",
 					"tags": [
 						"Advantage",
 						"Physical"
 					],
 					"points_per_level": 1,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to HT rolls to resist heat-related effects",
+							"amount": 1,
+							"per_level": true
+						}
+					],
 					"can_level": true,
 					"levels": 10,
 					"calc": {
@@ -586,7 +664,12 @@
 					}
 				},
 				{
-					"id": "tVuTlaGA74D5YODeL",
+					"id": "tp33XIaeOnXsY5zwn",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tTMoWXVYA-iHtg7JO"
+					},
 					"name": "Tough Skin",
 					"reference": "DFA16",
 					"tags": [
@@ -726,100 +809,100 @@
 					],
 					"modifiers": [
 						{
-							"id": "mOIcj6B9AfGizSmK2",
+							"id": "makRTL_szkUVzp22P",
 							"name": "Androgynous",
 							"disabled": true
 						},
 						{
-							"id": "mgqVnPYYp-B9uAP1l",
+							"id": "moQDIu-xoShSANCbf",
 							"name": "Impressive",
 							"disabled": true
 						},
 						{
-							"id": "mRGsy3y96qSMayov6",
+							"id": "m629s3uIKYRjjv20n",
 							"name": "Attractive",
 							"cost_adj": "4",
 							"disabled": true
 						},
 						{
-							"id": "mxCbFMG9VTA7jLrBY",
+							"id": "mfSlkh0KSCqZCK34d",
 							"name": "Average",
 							"disabled": true
 						},
 						{
-							"id": "mq05iYR8oUpCIIvNb",
+							"id": "mpO1NTKGG-miasv_5",
 							"name": "Horrific",
 							"cost_adj": "-24",
 							"disabled": true
 						},
 						{
-							"id": "mmtkzkndtwWA_2S3t",
+							"id": "mXfbPVl-9RwTGaekq",
 							"name": "Monstrous",
 							"cost_adj": "-20",
 							"disabled": true
 						},
 						{
-							"id": "mATkXO24hBay-qeGK",
+							"id": "mi_xaWN-lRX-XLLeF",
 							"name": "Hideous",
-							"cost_adj": "-16"
+							"cost_adj": "-16",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"situation": "from others",
+									"amount": -4
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Sex Appeal"
+									},
+									"amount": -8
+								}
+							]
 						},
 						{
-							"id": "msKyuJJ9iMFO1tX2b",
+							"id": "mPN6Nnv9Jla96XXI8",
 							"name": "Ugly",
 							"cost_adj": "-8",
 							"disabled": true
 						},
 						{
-							"id": "mTBrX_rPpX5VeviEW",
+							"id": "metqE1r0PWHULN_fP",
 							"name": "Unattractive",
 							"cost_adj": "-4",
 							"disabled": true
 						},
 						{
-							"id": "mHG-vFZ4w_5g8dOZG",
+							"id": "mFhLYpHLHlD7zYKIj",
 							"name": "Handsome",
 							"cost_adj": "12",
 							"disabled": true
 						},
 						{
-							"id": "mrs67pThsZT6-R566",
+							"id": "m6I2A4zwXDCR4WlHv",
 							"name": "Beautiful",
 							"cost_adj": "12",
 							"disabled": true
 						},
 						{
-							"id": "mxfy48oGFNmtneNgc",
+							"id": "mR-8SVWFL8xEH3f2u",
 							"name": "Very Handsome",
 							"cost_adj": "16",
 							"disabled": true
 						},
 						{
-							"id": "mLkTyacoe2225lwif",
+							"id": "mC9sahkfg5T_CPco-",
 							"name": "Very Beautiful",
 							"cost_adj": "16",
 							"disabled": true
 						},
 						{
-							"id": "mYUDWzLpfSNTTyKzk",
+							"id": "mD5faPHAt7Vni0b2T",
 							"name": "Transcendent",
 							"cost_adj": "20",
 							"disabled": true
-						}
-					],
-					"features": [
-						{
-							"type": "reaction_bonus",
-							"situation": "from others",
-							"amount": 1
-						},
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "Sex Appeal"
-							},
-							"amount": -8
 						}
 					],
 					"calc": {
@@ -827,7 +910,12 @@
 					}
 				},
 				{
-					"id": "tYr0TNalAgqNnOwGF",
+					"id": "t1N_pKKCdYIOzmr03",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tTtmOefQF1naljUNT"
+					},
 					"name": "Bad Temper",
 					"reference": "DFA57",
 					"tags": [
@@ -841,7 +929,12 @@
 					}
 				},
 				{
-					"id": "tXTR3W6E6URbQc0rS",
+					"id": "tDX4FyNvdOWItG-5R",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "ta9y7k03bRb9dgMvI"
+					},
 					"name": "Pyromania",
 					"reference": "DFA65",
 					"tags": [
@@ -855,7 +948,12 @@
 					}
 				},
 				{
-					"id": "t-5DcpDnRR4NstnMd",
+					"id": "t99sC-ZOxnUxM2Mrl",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tMV5EWLFciO30p75_"
+					},
 					"name": "Stubbornness",
 					"reference": "DFA66",
 					"tags": [
@@ -869,7 +967,12 @@
 					}
 				},
 				{
-					"id": "tz2NEW7hFo6LhfIT1",
+					"id": "tpW9fI-GUpjm7WOiS",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tglHg7wtR66XmqvY7"
+					},
 					"name": "Weakness",
 					"reference": "DFM14",
 					"tags": [
@@ -879,65 +982,72 @@
 					],
 					"modifiers": [
 						{
-							"id": "mrajdRERwQXxsxjj8",
+							"id": "m1jNIGLYosFL-dVXy",
 							"name": "1d damage per minute",
 							"reference": "B161",
 							"cost_adj": "-20"
 						},
 						{
-							"id": "mhFH0a11MD08cOerm",
+							"id": "mG0-HOT15yKAqH4QP",
 							"name": "1d damage per 5 minutes",
 							"reference": "B161",
 							"cost_adj": "-10",
 							"disabled": true
 						},
 						{
-							"id": "mIZqsO9J0BKPrOyDm",
+							"id": "mNfzdHDh_LJhN0iyp",
 							"name": "1d damage per 30 minutes",
 							"reference": "B161",
 							"cost_adj": "-5",
 							"disabled": true
 						},
 						{
-							"id": "m4-_njA10PGGr3-HN",
-							"name": "immersion in water",
+							"id": "mzqLxjP-OHl6z-dV-",
+							"name": "@Rare Substance@",
 							"reference": "B161",
-							"cost_adj": "x0.5"
+							"cost_adj": "x0.5",
+							"disabled": true
 						},
 						{
-							"id": "mFNQoTee9K-wtX1Nv",
+							"id": "mUh-zk8o4HyF0GhHG",
 							"name": "@Occasional Substance@",
 							"reference": "B161",
 							"cost_adj": "x1",
 							"disabled": true
 						},
 						{
-							"id": "mELAEwcx4lN1N8IXr",
+							"id": "mWHyuXRVcvSrYoQlh",
 							"name": "@Common Substance@",
 							"reference": "B161",
 							"cost_adj": "x2",
 							"disabled": true
 						},
 						{
-							"id": "mq7v-PQL1un1Rcg0N",
+							"id": "mME0TeAQIZ9qRkCrQ",
 							"name": "@Very Common Substance@",
 							"reference": "B161",
 							"cost_adj": "x3",
 							"disabled": true
 						},
 						{
-							"id": "m_XcKH6bWi6-C9hvn",
+							"id": "mYekVtl1KdGaAFvWg",
 							"name": "Fatigue Only",
 							"reference": "B161",
 							"cost_adj": "-50%",
 							"disabled": true
 						},
 						{
-							"id": "m-4TXwYmrv0wDjMa8",
+							"id": "mdcz8orCGZ5kyiY86",
 							"name": "Variable",
 							"reference": "B161",
 							"cost_adj": "-40%",
 							"disabled": true
+						},
+						{
+							"id": "myvdeEWIGC2851YSD",
+							"name": "immersion in water",
+							"reference": "B161",
+							"cost_adj": "x0.5"
 						}
 					],
 					"calc": {
