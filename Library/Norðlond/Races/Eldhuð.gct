@@ -89,11 +89,18 @@
 					}
 				},
 				{
-					"id": "tiI6YUhfGBQxpfPRx",
+					"id": "t7WkMxl6ouGo3Dex5",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"id": "twHBn3mcIetAVj8Rn"
+					},
 					"name": "Fire Resistance",
 					"reference": "NF14",
 					"reference_highlight": "Fire Resistance",
 					"tags": [
+						"Advantage",
+						"Eldhuð",
 						"Physical"
 					],
 					"points_per_level": 3,
@@ -180,12 +187,14 @@
 					"reference": "NF14",
 					"reference_highlight": "Demon’s Horns",
 					"tags": [
+						"Advantage",
+						"Eldhuð",
 						"Physical"
 					],
 					"base_points": 5,
 					"weapons": [
 						{
-							"id": "wZdaxD3XVoI_r9oDI",
+							"id": "wEOVeB6DD01TTn44P",
 							"sv": 1,
 							"damage": {
 								"type": "cr",
@@ -219,12 +228,14 @@
 					"reference": "NF14",
 					"reference_highlight": "Demon’s Horns",
 					"tags": [
+						"Advantage",
+						"Eldhuð",
 						"Physical"
 					],
 					"base_points": 8,
 					"weapons": [
 						{
-							"id": "w57uH4-B2CnUPxu1D",
+							"id": "wFsuRYr2kmt9ASzRP",
 							"sv": 1,
 							"damage": {
 								"type": "imp",
@@ -254,8 +265,9 @@
 					"id": "tzbTYCplMJwYl1oLI",
 					"name": "Extinguishing Touch",
 					"reference": "NF14",
-					"reference_highlight": "Extinguishing Touch",
 					"tags": [
+						"Advantage",
+						"Eldhuð",
 						"Physical"
 					],
 					"base_points": 2,
@@ -267,24 +279,26 @@
 					"id": "tbKcc_8dXnhkC8rXx",
 					"name": "Fire Resistance",
 					"reference": "NF14",
-					"reference_highlight": "Fire Resistance",
 					"tags": [
+						"Advantage",
+						"Eldhuð",
 						"Physical"
 					],
 					"points_per_level": 3,
 					"can_level": true,
-					"levels": 1,
+					"levels": 15,
 					"calc": {
-						"points": 3,
-						"current_level": 1
+						"points": 45,
+						"current_level": 15
 					}
 				},
 				{
 					"id": "ttLTdJdPGbVKgD28y",
 					"name": "Flaming Touch",
 					"reference": "NF14",
-					"reference_highlight": "Flaming Touch",
 					"tags": [
+						"Advantage",
+						"Eldhuð",
 						"Physical"
 					],
 					"base_points": 2,
@@ -309,12 +323,14 @@
 					"reference": "NF14",
 					"reference_highlight": "Imp's Tail",
 					"tags": [
+						"Advantage",
+						"Eldhuð",
 						"Physical"
 					],
 					"base_points": 5,
 					"weapons": [
 						{
-							"id": "wnsGLeGroDf8ou0WD",
+							"id": "w1ReU--cgk-sHTDge",
 							"sv": 1,
 							"damage": {
 								"type": "pi",
@@ -337,12 +353,14 @@
 					"reference": "NF14",
 					"reference_highlight": "Imp's Tail",
 					"tags": [
+						"Advantage",
+						"Eldhuð",
 						"Physical"
 					],
 					"base_points": 6,
 					"weapons": [
 						{
-							"id": "w8haDFU7ObcVaou9b",
+							"id": "wqynKNgGRvMvjhyTg",
 							"sv": 1,
 							"damage": {
 								"type": "pi+",
@@ -365,12 +383,14 @@
 					"reference": "NF14",
 					"reference_highlight": "Imp's Tail",
 					"tags": [
+						"Advantage",
+						"Eldhuð",
 						"Physical"
 					],
 					"base_points": 8,
 					"weapons": [
 						{
-							"id": "w3yjB-_DiegaeLHCI",
+							"id": "w5lUBfQJrv_R_Hdpo",
 							"sv": 1,
 							"damage": {
 								"type": "imp",
@@ -391,8 +411,9 @@
 					"id": "tMPMg_ixdN_y8pGbk",
 					"name": "Nimble Tail",
 					"reference": "NF14",
-					"reference_highlight": "Nimble Tail",
 					"tags": [
+						"Advantage",
+						"Eldhuð",
 						"Physical"
 					],
 					"base_points": 5,
@@ -404,13 +425,95 @@
 					"id": "t3YXlAm8HEhz7PE72",
 					"name": "Passing Appearance",
 					"reference": "NF14",
-					"reference_highlight": "Passing Appearance",
 					"tags": [
+						"Advantage",
+						"Eldhuð",
 						"Physical"
 					],
 					"base_points": 2,
 					"calc": {
 						"points": 2
+					}
+				},
+				{
+					"id": "tJEoqPwJnjkzJxySH",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "gcs_master_library/Library/Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tL2r9xCTSlgek2APD"
+					},
+					"name": "Sharp Claws",
+					"reference": "DFA43",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"base_points": 5,
+					"weapons": [
+						{
+							"id": "wPx7585PSt1kNPNJM",
+							"sv": 1,
+							"damage": {
+								"type": "cut",
+								"st": "thr",
+								"base": "-1"
+							},
+							"usage": "Slash",
+							"reach": "C",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "dx"
+								},
+								{
+									"type": "skill",
+									"name": "Brawling"
+								},
+								{
+									"type": "skill",
+									"name": "Boxing"
+								},
+								{
+									"type": "skill",
+									"name": "Karate"
+								}
+							],
+							"calc": {
+								"damage": "thr-1 cut"
+							}
+						},
+						{
+							"id": "wOaI_gK3CVYXwHu8v",
+							"sv": 1,
+							"damage": {
+								"type": "cut",
+								"st": "thr"
+							},
+							"usage": "Kick",
+							"reach": "C,1",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Brawling",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Karate",
+									"modifier": -2
+								}
+							],
+							"calc": {
+								"damage": "thr cut"
+							}
+						}
+					],
+					"calc": {
+						"points": 5
 					}
 				},
 				{
@@ -494,6 +597,7 @@
 				{
 					"id": "TMkzG0k4by95OzoMy",
 					"name": "Succubus' Features",
+					"reference": "NF14",
 					"local_notes": "Replaces Appearance (Attractive)",
 					"children": [
 						{
@@ -557,7 +661,7 @@
 				}
 			],
 			"calc": {
-				"points": 74
+				"points": 121
 			}
 		}
 	]

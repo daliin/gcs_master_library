@@ -415,10 +415,10 @@
 						}
 					],
 					"can_level": true,
-					"levels": 2,
+					"levels": 3,
 					"calc": {
-						"points": 6,
-						"current_level": 2
+						"points": 9,
+						"current_level": 3
 					}
 				},
 				{
@@ -431,10 +431,10 @@
 					],
 					"points_per_level": 2,
 					"can_level": true,
-					"levels": 2,
+					"levels": 7,
 					"calc": {
-						"points": 4,
-						"current_level": 2
+						"points": 14,
+						"current_level": 7
 					}
 				},
 				{
@@ -467,12 +467,20 @@
 					}
 				},
 				{
-					"id": "tSVXzaZ_Qr9mqfh7j",
+					"id": "tadBYoVAh45WM48no",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"id": "t4PnnVXMLKeRtqpfv"
+					},
 					"name": "Eh, That's Just Grug",
 					"reference": "NF6",
 					"local_notes": "Eliminates penalties for Social Stigma (Savage) in any town that you've spent at least one week in after a succesful adventure.",
 					"tags": [
-						"Physical"
+						"Advantage",
+						"Half-Ogre",
+						"Half-Orc",
+						"Social"
 					],
 					"base_points": 8,
 					"calc": {
@@ -481,7 +489,7 @@
 				}
 			],
 			"calc": {
-				"points": 35
+				"points": 48
 			}
 		}
 	]

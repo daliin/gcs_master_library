@@ -232,10 +232,17 @@
 			"reference": "NF5",
 			"children": [
 				{
-					"id": "tPONbbOOgGudH23Rb",
+					"id": "tneetKqA1g_Ll90F4",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"id": "tjSR-BccbxciXoAAF"
+					},
 					"name": "Equipment Bond (@Specific Non-Combat Tool@)",
-					"reference": "NF4",
+					"reference": "NF4, DFA54",
 					"tags": [
+						"Dvergr",
+						"Dwarves",
 						"Perk",
 						"Physical"
 					],
@@ -338,24 +345,31 @@
 					],
 					"points_per_level": 5,
 					"can_level": true,
-					"levels": 1,
+					"levels": 3,
 					"calc": {
-						"points": 5,
-						"current_level": 1
+						"points": 15,
+						"current_level": 3
 					}
 				},
 				{
-					"id": "tdt4pgfElaTKnNblq",
+					"id": "tYN7lq4rVsZjLLtDM",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"id": "t5Is9hZ4r3jYPiiA6"
+					},
 					"name": "Artificer's Lore",
 					"reference": "NF5",
 					"tags": [
-						"Physical"
+						"Advantage",
+						"Gnome",
+						"Mental"
 					],
 					"base_points": 25,
 					"features": [
 						{
 							"type": "reaction_bonus",
-							"situation": "when selling anything identified using this ability.",
+							"situation": "when selling anything identified using Artificer's Lore",
 							"amount": 1
 						}
 					],
@@ -365,7 +379,7 @@
 				}
 			],
 			"calc": {
-				"points": 136
+				"points": 146
 			}
 		}
 	]

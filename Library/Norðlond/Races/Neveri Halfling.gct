@@ -388,15 +388,15 @@
 					],
 					"points_per_level": 1,
 					"can_level": true,
-					"levels": 1,
+					"levels": 5,
 					"calc": {
-						"points": 1,
-						"current_level": 1
+						"points": 5,
+						"current_level": 5
 					}
 				}
 			],
 			"calc": {
-				"points": 16
+				"points": 20
 			}
 		}
 	]

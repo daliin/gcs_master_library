@@ -158,7 +158,10 @@
 					"name": "Covenant of Rest",
 					"reference": "NF15",
 					"tags": [
-						"Physical"
+						"Advantage",
+						"Himneskur",
+						"Physical",
+						"Supernatural"
 					],
 					"base_points": 1,
 					"calc": {
@@ -184,7 +187,10 @@
 					"name": "Demonic Enmity",
 					"reference": "NF15",
 					"tags": [
-						"Physical"
+						"Disadvantage",
+						"Himneskur",
+						"Physical",
+						"Supernatural"
 					],
 					"base_points": -5,
 					"calc": {
@@ -310,6 +316,21 @@
 					}
 				},
 				{
+					"id": "tW-HOFpZQvDNlDeNZ",
+					"name": "Detect Good",
+					"reference": "DFA20",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental",
+						"Physical"
+					],
+					"base_points": 9,
+					"calc": {
+						"points": 9
+					}
+				},
+				{
 					"id": "tOx1CnLxD_s3MpPIC",
 					"name": "Divine Guidance",
 					"reference": "DFA20",
@@ -350,6 +371,74 @@
 					}
 				},
 				{
+					"id": "tROf7pAiuSsU2Kuq-",
+					"name": "Heroic Grace",
+					"reference": "DFA26",
+					"tags": [
+						"Advantage",
+						"Mental",
+						"Supernatural"
+					],
+					"points_per_level": 9,
+					"can_level": true,
+					"levels": 2,
+					"calc": {
+						"points": 18,
+						"current_level": 2
+					}
+				},
+				{
+					"id": "tXwcqXrlonEVrSD3a",
+					"name": "Heroic Might",
+					"reference": "DFA26",
+					"tags": [
+						"Advantage",
+						"Mental",
+						"Supernatural"
+					],
+					"points_per_level": 9,
+					"can_level": true,
+					"levels": 2,
+					"calc": {
+						"points": 18,
+						"current_level": 2
+					}
+				},
+				{
+					"id": "t2q31PLzJFhxO0nNM",
+					"name": "Heroic Vitality",
+					"reference": "DFA26",
+					"tags": [
+						"Advantage",
+						"Mental",
+						"Supernatural"
+					],
+					"points_per_level": 9,
+					"can_level": true,
+					"levels": 2,
+					"calc": {
+						"points": 18,
+						"current_level": 2
+					}
+				},
+				{
+					"id": "tsJguqRJCh2p59B0e",
+					"name": "Resist Evil",
+					"reference": "DFA27",
+					"tags": [
+						"Advantage",
+						"Mental",
+						"Supernatural"
+					],
+					"points_per_level": 1,
+					"can_level": true,
+					"levels": 6,
+					"calc": {
+						"points": 6,
+						"current_level": 6
+					}
+				},
+				{
 					"id": "tEWbP-tMPIBym6O4E",
 					"name": "Turning",
 					"reference": "DFA21",
@@ -365,7 +454,7 @@
 				}
 			],
 			"calc": {
-				"points": 117
+				"points": 186
 			}
 		}
 	]

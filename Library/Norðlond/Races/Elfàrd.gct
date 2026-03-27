@@ -468,19 +468,27 @@
 						}
 					],
 					"can_level": true,
-					"levels": 1,
+					"levels": 3,
 					"calc": {
-						"points": 15,
-						"current_level": 1
+						"points": 35,
+						"current_level": 3
 					}
 				},
 				{
-					"id": "tlcJGAY-mZe_wBCUo",
+					"id": "tAyPVA1OYNDAGrOeO",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"id": "tWnOs-U62Uo4oLBAS"
+					},
 					"name": "Elven Glamour",
 					"reference": "NF5",
 					"local_notes": "Does not work in areas with low or no mana.",
 					"tags": [
-						"Physical"
+						"Advantage",
+						"Elfard",
+						"Mental",
+						"Supernatural"
 					],
 					"base_points": 10,
 					"features": [
@@ -500,6 +508,10 @@
 								"compare": "is",
 								"qualifier": "Mimicry"
 							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Speech"
+							},
 							"amount": 4
 						}
 					],
@@ -509,7 +521,7 @@
 				}
 			],
 			"calc": {
-				"points": 35
+				"points": 55
 			}
 		}
 	]

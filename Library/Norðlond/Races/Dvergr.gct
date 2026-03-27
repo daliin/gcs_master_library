@@ -86,11 +86,19 @@
 					}
 				},
 				{
-					"id": "t5nLox_U-pvceb1HD",
+					"id": "tU89UjJQyrNxYKdf1",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"id": "tQCt4Kc6bSAZggq49"
+					},
 					"name": "Lifsleikni",
 					"reference": "NF3",
 					"tags": [
-						"Physical"
+						"Advantage",
+						"Dvergr",
+						"Mental",
+						"Talent"
 					],
 					"points_per_level": 5,
 					"features": [
@@ -99,7 +107,7 @@
 							"selection_type": "skills_with_name",
 							"name": {
 								"compare": "is",
-								"qualifier": "armoury"
+								"qualifier": "Armory"
 							},
 							"amount": 1,
 							"per_level": true
@@ -141,6 +149,10 @@
 								"compare": "is",
 								"qualifier": "Thrown Weapon"
 							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Axe/Mace"
+							},
 							"amount": 1,
 							"per_level": true
 						},
@@ -156,7 +168,7 @@
 						},
 						{
 							"type": "reaction_bonus",
-							"situation": "from craftsmen and professional warriors",
+							"situation": "from craftsmen and professional warriors (but not bandits)",
 							"amount": 1
 						}
 					],
@@ -329,22 +341,28 @@
 					}
 				},
 				{
-					"id": "tNlEzB9PYwBDSufei",
+					"id": "twT9SqWcbVD5pVufE",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"id": "tLJHw9z_hso4sxqWZ"
+					},
 					"name": "Intolerance (Elder Races)",
-					"reference": "DFA61",
+					"reference": "NF3, DFA61",
 					"tags": [
 						"Disadvantage",
+						"Dvergr",
 						"Mental"
 					],
 					"modifiers": [
 						{
-							"id": "mWTZQPF_2qWnJbHmq",
+							"id": "m9uLvn2TsTT5wt_QS",
 							"name": "Scope: Targeted",
 							"reference": "DFA61",
 							"cost_adj": "-5"
 						},
 						{
-							"id": "mxzGE5YPPi9T4YEah",
+							"id": "mDVcozPcE9nqels2t",
 							"name": "Scope: Broad",
 							"reference": "DFA61",
 							"cost_adj": "-10",
@@ -401,45 +419,87 @@
 					}
 				},
 				{
-					"id": "tat7aZzXEOQnOWuTJ",
+					"id": "t5U1JmaGC4uRINDVF",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"id": "tVkqOE-9iq8e_3urt"
+					},
 					"name": "Higher Purpose",
 					"reference": "NF4, DFA27",
 					"tags": [
 						"Advantage",
-						"Exotic",
-						"Mental"
+						"Dvergr",
+						"Dwarves",
+						"Mental",
+						"Supernatural"
 					],
 					"modifiers": [
 						{
-							"id": "mGTxo7pdrfQA2kygI",
+							"id": "mbczPII-8jH3ZTBjF",
 							"name": "Slay Demons",
+							"use_level_from_trait": true,
+							"features": [
+								{
+									"type": "conditional_modifier",
+									"situation": "to all attack and damage rolls against demons",
+									"amount": 1,
+									"per_level": true
+								}
+							],
 							"disabled": true
 						},
 						{
-							"id": "m3XNWAg4pKdnfRxWR",
+							"id": "mIgg6p25u9F9UOW2X",
 							"name": "Slay Faeries",
+							"use_level_from_trait": true,
+							"features": [
+								{
+									"type": "conditional_modifier",
+									"situation": "to all attack and damage rolls against faeries, including all norðalfar",
+									"amount": 1,
+									"per_level": true
+								}
+							],
 							"disabled": true
 						},
 						{
-							"id": "mTfAHIJwDVtmDSgmS",
+							"id": "mbP2qw_SOVBEDjbIu",
 							"name": "Slay Dragons",
+							"use_level_from_trait": true,
+							"features": [
+								{
+									"type": "conditional_modifier",
+									"situation": "to all attack and damage rolls against dragons, ormur, wyverns, giant snakes, and other large (\u003e SM+1) reptilian foes",
+									"amount": 1,
+									"per_level": true
+								}
+							],
 							"disabled": true
 						}
 					],
 					"points_per_level": 5,
 					"can_level": true,
-					"levels": 1,
+					"levels": 3,
 					"calc": {
-						"points": 5,
-						"current_level": 1
+						"points": 15,
+						"current_level": 3
 					}
 				},
 				{
-					"id": "ts8_2VBxE4rwiXnwd",
+					"id": "tPsQ0iBxC59lwlz0h",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"id": "tRxwAh5kygsr1pr1y"
+					},
 					"name": "Stonecunning",
 					"reference": "NF4",
 					"tags": [
-						"Physical"
+						"Advantage",
+						"Dvergr",
+						"Dwarves",
+						"Mental"
 					],
 					"base_points": 26,
 					"calc": {
@@ -448,7 +508,7 @@
 				}
 			],
 			"calc": {
-				"points": 32
+				"points": 42
 			}
 		}
 	]

@@ -97,13 +97,28 @@
 					}
 				},
 				{
-					"id": "tTvTqDfUjAtGydvLj",
+					"id": "t6z30xuu23OPYLQfB",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"id": "tUYua7mJ8k8DLxhFh"
+					},
 					"name": "Elemental Resistance",
-					"reference": "NF13",
+					"reference": "NF13, DFA24",
 					"tags": [
+						"Advantage",
+						"Dragon-Blooded",
 						"Physical"
 					],
 					"points_per_level": 4,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "DR against elemental attacks",
+							"amount": 2,
+							"per_level": true
+						}
+					],
 					"can_level": true,
 					"levels": 2,
 					"calc": {
@@ -114,7 +129,7 @@
 				{
 					"id": "tT7mKaIIJbnancIEb",
 					"name": "Nictitating Membrane",
-					"reference": "NF13",
+					"reference": "NF13, M11",
 					"local_notes": "+1 to HT rolls concerning the eyes.",
 					"tags": [
 						"Physical"
@@ -398,11 +413,18 @@
 					}
 				},
 				{
-					"id": "tWQ9qkeBkn6A1MzT1",
+					"id": "tZXXxSpeVszOcf_pE",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"id": "tjpQZEjrHcWdXvMV8"
+					},
 					"name": "Restricted Diet",
-					"reference": "NF13",
+					"reference": "NF13, B151",
 					"local_notes": "Meat",
 					"tags": [
+						"Disadvantage",
+						"Dragon-Blooded",
 						"Physical"
 					],
 					"base_points": -10,
@@ -432,18 +454,33 @@
 			"reference": "NF13",
 			"children": [
 				{
-					"id": "tzN4bUbKW9Ho2RWoM",
+					"id": "t_fcKaEx7v6zFfgrh",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"id": "tUYua7mJ8k8DLxhFh"
+					},
 					"name": "Elemental Resistance",
-					"reference": "NF13",
+					"reference": "NF13, DFA24",
 					"tags": [
+						"Advantage",
+						"Dragon-Blooded",
 						"Physical"
 					],
 					"points_per_level": 4,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "DR against elemental attacks",
+							"amount": 2,
+							"per_level": true
+						}
+					],
 					"can_level": true,
-					"levels": 3,
+					"levels": 4,
 					"calc": {
-						"points": 12,
-						"current_level": 3
+						"points": 16,
+						"current_level": 4
 					}
 				},
 				{
@@ -456,10 +493,10 @@
 					],
 					"points_per_level": 1,
 					"can_level": true,
-					"levels": 1,
+					"levels": 3,
 					"calc": {
-						"points": 1,
-						"current_level": 1
+						"points": 3,
+						"current_level": 3
 					}
 				},
 				{
@@ -472,15 +509,15 @@
 					],
 					"points_per_level": 1,
 					"can_level": true,
-					"levels": 1,
+					"levels": 3,
 					"calc": {
-						"points": 1,
-						"current_level": 1
+						"points": 3,
+						"current_level": 3
 					}
 				}
 			],
 			"calc": {
-				"points": 14
+				"points": 22
 			}
 		}
 	],

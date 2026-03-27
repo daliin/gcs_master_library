@@ -110,11 +110,19 @@
 					}
 				},
 				{
-					"id": "tjsqhME0jTpbVKBWF",
+					"id": "ty8X7yE-AMTFwAqZ-",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"id": "tJ9qdRds9l0LSbtAz"
+					},
 					"name": "Bear Heart",
 					"reference": "NF8",
 					"tags": [
-						"Physical"
+						"Advantage",
+						"Bjornhjarta",
+						"Physical",
+						"Talent"
 					],
 					"points_per_level": 5,
 					"features": [
@@ -183,11 +191,18 @@
 					}
 				},
 				{
-					"id": "tO6VY7ptBD33GKg5q",
+					"id": "th0qbTo7m57z2uwpc",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"id": "twUB1adIpMQo4yyca"
+					},
 					"name": "Cast-Iron Stomach",
-					"reference": "NF8",
+					"reference": "NF8, M10, B80",
 					"tags": [
 						"Advantage",
+						"Björnhjarta",
+						"Gullinálmur",
 						"Physical"
 					],
 					"base_points": 2,
@@ -530,10 +545,98 @@
 			"reference": "NF9",
 			"children": [
 				{
-					"id": "tx376TelzUDt5eRo5",
+					"id": "tyGXpPqj53xIInejt",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"id": "tJ9qdRds9l0LSbtAz"
+					},
+					"name": "Bear Heart",
+					"reference": "NF8",
+					"tags": [
+						"Advantage",
+						"Bjornhjarta",
+						"Physical",
+						"Talent"
+					],
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Brawling"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Fishing"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Lifting"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Swimming"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Wrestling"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "reaction_bonus",
+							"situation": "from fellow berserkers",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 4,
+					"calc": {
+						"points": 20,
+						"current_level": 4
+					}
+				},
+				{
+					"id": "tJMTWCFJeHYRhOm_N",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"id": "tHTOE3KkHXpRrsZ8d"
+					},
 					"name": "Björnreiði",
 					"reference": "NF9",
 					"tags": [
+						"Advantage",
+						"Bjornhjarta",
 						"Physical"
 					],
 					"points_per_level": 16,
@@ -543,10 +646,157 @@
 						"points": 16,
 						"current_level": 1
 					}
+				},
+				{
+					"id": "thm8VTUert693FhYg",
+					"name": "Temperature Tolerance (Cold)",
+					"reference": "DFA16",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"points_per_level": 1,
+					"can_level": true,
+					"levels": 3,
+					"calc": {
+						"points": 3,
+						"current_level": 3
+					}
+				},
+				{
+					"id": "tQ-6AcBGHHSwE3Hzc",
+					"name": "Tough Skin",
+					"reference": "DFA16",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"points_per_level": 3,
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"skull"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"face"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"neck"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"torso"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"vitals"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"groin"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"arm"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"hand"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"leg"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"foot"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"tail"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"wing"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"fin"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"brain"
+							],
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 3,
+					"calc": {
+						"points": 9,
+						"current_level": 3
+					}
 				}
 			],
 			"calc": {
-				"points": 16
+				"points": 48
 			}
 		}
 	]

@@ -85,11 +85,18 @@
 					}
 				},
 				{
-					"id": "tPNE6w1ej64HtqXNG",
+					"id": "tgnjmFbGTO9Ve9LKL",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"id": "twUB1adIpMQo4yyca"
+					},
 					"name": "Cast-Iron Stomach",
-					"reference": "NF8",
+					"reference": "NF8, M10, B80",
 					"tags": [
 						"Advantage",
+						"Björnhjarta",
+						"Gullinálmur",
 						"Physical"
 					],
 					"base_points": 2,
@@ -107,7 +114,7 @@
 				{
 					"id": "tolOZOmyHyJR6DBO4",
 					"name": "Fangs",
-					"reference": "B91",
+					"reference": "NF9, B91",
 					"tags": [
 						"Advantage",
 						"Exotic",
@@ -116,7 +123,7 @@
 					"base_points": 2,
 					"weapons": [
 						{
-							"id": "wfbrHPp6fanK6eJkI",
+							"id": "wG0wIsNdrZbbCfx7-",
 							"sv": 1,
 							"damage": {
 								"type": "imp",
@@ -158,10 +165,17 @@
 					}
 				},
 				{
-					"id": "tjWMtly8Qf6w0opBQ",
+					"id": "tVYvf1-oY_WPQlO_7",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"id": "t-VHEUGXLmsOtPkCt"
+					},
 					"name": "Ramming Speed",
 					"reference": "NF9",
 					"tags": [
+						"Gullinalmur",
+						"Perk",
 						"Physical"
 					],
 					"base_points": 1,
@@ -251,23 +265,196 @@
 			"reference": "NF9",
 			"children": [
 				{
-					"id": "tCnroVPng-WXC05Xo",
+					"id": "tzyS-yYo1kVsVRYTL",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "gcs_master_library/Library/Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tmf4B_MlXbAmzn3Kl"
+					},
+					"name": "Extra Hit Points",
+					"reference": "DFA10",
+					"tags": [
+						"Advantage",
+						"Attribute",
+						"Physical"
+					],
+					"points_per_level": 2,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "hp",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 2,
+						"current_level": 1
+					}
+				},
+				{
+					"id": "tPgH2YXE4c2ckQKah",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"id": "tOGt3Dc6NRQR5rdE8"
+					},
 					"name": "Grand Slam",
 					"reference": "NF9",
 					"tags": [
+						"Advantage",
+						"Gullinálmur",
 						"Physical"
 					],
 					"points_per_level": 12,
 					"can_level": true,
-					"levels": 1,
+					"levels": 2,
 					"calc": {
-						"points": 12,
-						"current_level": 1
+						"points": 24,
+						"current_level": 2
+					}
+				},
+				{
+					"id": "tDrCWX06f7xc-syQI",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "gcs_master_library/Library/Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tTMoWXVYA-iHtg7JO"
+					},
+					"name": "Tough Skin",
+					"reference": "DFA16",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"points_per_level": 3,
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"skull"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"face"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"neck"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"torso"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"vitals"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"groin"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"arm"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"hand"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"leg"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"foot"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"tail"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"wing"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"fin"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"brain"
+							],
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 2,
+					"calc": {
+						"points": 6,
+						"current_level": 2
 					}
 				}
 			],
 			"calc": {
-				"points": 12
+				"points": 32
 			}
 		}
 	]

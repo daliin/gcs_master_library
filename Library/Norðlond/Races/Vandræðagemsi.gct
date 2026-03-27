@@ -85,7 +85,11 @@
 					"name": "Craftiness",
 					"reference": "NF16",
 					"tags": [
-						"Physical"
+						"Advantage",
+						"Mental",
+						"Talent",
+						"Supernatural",
+						"Vandræðagemsi"
 					],
 					"points_per_level": 5,
 					"features": [
@@ -172,9 +176,12 @@
 				{
 					"id": "tuF5Fm7XHMxZB1n45",
 					"name": "Doodads",
-					"reference": "NF16",
+					"reference": "NF16, DFA39",
 					"tags": [
-						"Physical"
+						"Advantage",
+						"Physical",
+						"Supernatural",
+						"Vandræðagemsi"
 					],
 					"points_per_level": 1,
 					"can_level": true,
@@ -376,6 +383,86 @@
 			"reference": "NF16",
 			"children": [
 				{
+					"id": "trBhpq5fA5ggk6UIt",
+					"name": "Craftiness",
+					"reference": "NF16",
+					"tags": [
+						"Advantage",
+						"Mental",
+						"Talent",
+						"Supernatural",
+						"Vandræðagemsi"
+					],
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Acting"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Camouflage"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Disguise"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Holdout"
+							},
+							"amount": 1
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Shadowing"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Stealth"
+							},
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 4,
+					"calc": {
+						"points": 20,
+						"current_level": 4
+					}
+				},
+				{
 					"id": "tMo0IFJjm-HurnvkK",
 					"name": "Gizmo",
 					"reference": "DFA39",
@@ -385,10 +472,10 @@
 					],
 					"points_per_level": 5,
 					"can_level": true,
-					"levels": 1,
+					"levels": 3,
 					"calc": {
-						"points": 5,
-						"current_level": 1
+						"points": 15,
+						"current_level": 3
 					}
 				},
 				{
@@ -401,10 +488,10 @@
 					],
 					"points_per_level": 5,
 					"can_level": true,
-					"levels": 1,
+					"levels": 3,
 					"calc": {
-						"points": 5,
-						"current_level": 1
+						"points": 15,
+						"current_level": 3
 					}
 				},
 				{
@@ -414,7 +501,8 @@
 					"tags": [
 						"Advantage",
 						"Mental",
-						"Supernatural"
+						"Supernatural",
+						"Vandræðagemsi"
 					],
 					"points_per_level": 6,
 					"features": [
@@ -436,15 +524,15 @@
 						}
 					],
 					"can_level": true,
-					"levels": 1,
+					"levels": 6,
 					"calc": {
-						"points": 6,
-						"current_level": 1
+						"points": 36,
+						"current_level": 6
 					}
 				}
 			],
 			"calc": {
-				"points": 16
+				"points": 86
 			}
 		}
 	]

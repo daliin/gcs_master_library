@@ -85,17 +85,23 @@
 					}
 				},
 				{
-					"id": "tOVcJsW6V9QTO5SbT",
+					"id": "tT5suD101dFAiE2z9",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"id": "tpqBmK4vbpb-0FykZ"
+					},
 					"name": "Blunt Claws",
-					"reference": "NF10",
+					"reference": "NF10, B42",
 					"tags": [
 						"Advantage",
-						"Physical"
+						"Physical",
+						"Úlfblóðugur"
 					],
 					"base_points": 3,
 					"weapons": [
 						{
-							"id": "wctOqJoF_GdB4VHzq",
+							"id": "wDJi0vK1VMJ4z871L",
 							"sv": 1,
 							"damage": {
 								"type": "cr",
@@ -128,7 +134,7 @@
 							}
 						},
 						{
-							"id": "wFMHDpEuch6BM6zgj",
+							"id": "wEk2bg9VB6g3cLoSg",
 							"sv": 1,
 							"damage": {
 								"type": "cr",
@@ -321,24 +327,73 @@
 			"reference": "NF10",
 			"children": [
 				{
-					"id": "tR3bBNOev5Y8EbyBf",
-					"name": "Pack Bond",
-					"reference": "NF10",
-					"local_notes": "+1 on any roll to assist companions who survive at least two adventures with you.",
+					"id": "tk-DqIrg54vWwCN-e",
+					"name": "Increased Perception",
+					"reference": "DFA10",
 					"tags": [
+						"Advantage",
+						"Attribute",
+						"Mental",
 						"Physical"
 					],
 					"points_per_level": 5,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "per",
+							"amount": 1,
+							"per_level": true
+						}
+					],
 					"can_level": true,
 					"levels": 1,
 					"calc": {
 						"points": 5,
 						"current_level": 1
 					}
+				},
+				{
+					"id": "tvBfq-GWaY-DRVmtE",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"id": "tU3HIBcgtLO-mGy0Z"
+					},
+					"name": "Pack Bond",
+					"reference": "NF10",
+					"local_notes": "+1 on any roll to assist companions who survive at least two adventures with you.",
+					"tags": [
+						"Advantage",
+						"Mental",
+						"Úlfblóðugur"
+					],
+					"points_per_level": 5,
+					"can_level": true,
+					"levels": 3,
+					"calc": {
+						"points": 15,
+						"current_level": 3
+					}
+				},
+				{
+					"id": "ts6OB1-AAxDaJm-4c",
+					"name": "Temperature Tolerance (Cold)",
+					"reference": "DFA16",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"points_per_level": 1,
+					"can_level": true,
+					"levels": 3,
+					"calc": {
+						"points": 3,
+						"current_level": 3
+					}
 				}
 			],
 			"calc": {
-				"points": 5
+				"points": 23
 			}
 		}
 	]
