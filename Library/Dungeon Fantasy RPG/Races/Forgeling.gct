@@ -1,0 +1,981 @@
+{
+	"version": 5,
+	"id": "BP439oy3vyThdW4jR",
+	"traits": [
+		{
+			"id": "TPyg1w0hgjA0U77ok",
+			"name": "Forgeling",
+			"reference": "DFRM2:19",
+			"ancestry": "Human",
+			"container_type": "ancestry",
+			"children": [
+				{
+					"id": "tGLA4sOpD4g6IkQaX",
+					"name": "Decreased Intelligence",
+					"reference": "DFA8",
+					"tags": [
+						"Attribute",
+						"Disadvantage",
+						"Mental"
+					],
+					"points_per_level": -20,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "iq",
+							"amount": -1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": -20,
+						"current_level": 1
+					}
+				},
+				{
+					"id": "tjbe8S-sZ4A2Mqxr0",
+					"name": "Increased Health",
+					"reference": "DFA8",
+					"tags": [
+						"Advantage",
+						"Attribute",
+						"Physical"
+					],
+					"points_per_level": 10,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "ht",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 10,
+						"current_level": 1
+					}
+				},
+				{
+					"id": "t2UQICqowW5Y8P0Un",
+					"name": "Increased Will",
+					"reference": "DFA10",
+					"tags": [
+						"Advantage",
+						"Attribute",
+						"Mental"
+					],
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "will",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 2,
+					"calc": {
+						"points": 10,
+						"current_level": 2
+					}
+				},
+				{
+					"id": "tURP0BJXC8_cdXcyg",
+					"name": "Extra Fatigue Points",
+					"reference": "DFA10",
+					"tags": [
+						"Advantage",
+						"Attribute",
+						"Physical"
+					],
+					"points_per_level": 3,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "fp",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 3,
+					"calc": {
+						"points": 9,
+						"current_level": 3
+					}
+				},
+				{
+					"id": "tNKRNqrNSeFqKy2vk",
+					"name": "Increased Basic Speed",
+					"reference": "DFA11",
+					"tags": [
+						"Advantage",
+						"Attribute",
+						"Physical"
+					],
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "basic_speed",
+							"amount": 0.25,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 4,
+					"calc": {
+						"points": 20,
+						"current_level": 4
+					}
+				},
+				{
+					"id": "taZw-G0wxvy4riU3w",
+					"name": "Damage Resistance",
+					"reference": "DFRM2:19, B46",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"replacements": {
+						"Common Attack Form": "heat/fire only"
+					},
+					"modifiers": [
+						{
+							"id": "Mf9mjYceaVHxtov1g",
+							"name": "Special Enhancements",
+							"children": [
+								{
+									"id": "mO0jhvGNOcON0dhmW",
+									"name": "Absorption",
+									"reference": "B46",
+									"local_notes": "Enhances @Trait@",
+									"cost_adj": "80%",
+									"disabled": true
+								},
+								{
+									"id": "mwPsg46ykuZh70rOJ",
+									"name": "Absorption",
+									"reference": "B46",
+									"local_notes": "Healing only",
+									"cost_adj": "80%",
+									"disabled": true
+								},
+								{
+									"id": "mQNNSQg7HU_quWtJQ",
+									"name": "Absorption",
+									"reference": "B46",
+									"local_notes": "Enhances any trait",
+									"cost_adj": "100%",
+									"disabled": true
+								},
+								{
+									"id": "mfDhohxtPD3sjSMxb",
+									"name": "Force Field",
+									"reference": "B47",
+									"cost_adj": "20%",
+									"disabled": true
+								},
+								{
+									"id": "mbifb8MfyS-zSw4eo",
+									"name": "Hardened",
+									"reference": "B47",
+									"local_notes": "Reduces armor divisor by @Hardened level@ step(s): \"ignores DR\"→100→10→5→3→2→\"no divisor\"",
+									"cost_adj": "20%",
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "msL4VfACTVBGWj9QC",
+									"name": "Laminate",
+									"reference": "RSWL18",
+									"cost_adj": "10%",
+									"disabled": true
+								},
+								{
+									"id": "mGQ08qiEwV3dYQGMa",
+									"name": "Malediction-Proof",
+									"reference": "PSI14",
+									"cost_adj": "50%",
+									"disabled": true
+								},
+								{
+									"id": "mAuapAE0e0OWmZ1Zp",
+									"name": "Maledictions Only",
+									"reference": "PSI14",
+									"disabled": true
+								},
+								{
+									"id": "mlU7tF9ybj_JLQhWo",
+									"name": "Reflection",
+									"reference": "B47",
+									"cost_adj": "100%",
+									"disabled": true
+								},
+								{
+									"id": "mJqltA9iXMPRoLn9k",
+									"name": "Mental Resilience",
+									"reference": "PY103:8",
+									"tags": [
+										"Mad as Bones"
+									],
+									"cost_adj": "+100%",
+									"disabled": true
+								}
+							]
+						},
+						{
+							"id": "MnzPbMG7XT7C2h7KM",
+							"name": "Special Limitations",
+							"children": [
+								{
+									"id": "mOn-Z6vmckTm-l07P",
+									"name": "Ablative",
+									"reference": "B47",
+									"cost_adj": "-80%",
+									"disabled": true
+								},
+								{
+									"id": "mo0y5uhwOPlajNFRY",
+									"name": "Bane",
+									"reference": "H14",
+									"local_notes": "@Very Common@",
+									"cost_adj": "-15%",
+									"disabled": true
+								},
+								{
+									"id": "m_Chcf3Y551_HZCTT",
+									"name": "Bane",
+									"reference": "H14",
+									"local_notes": "@Common@",
+									"cost_adj": "-10%",
+									"disabled": true
+								},
+								{
+									"id": "m3xLSZHDdC_7-Joor",
+									"name": "Bane",
+									"reference": "H14",
+									"local_notes": "@Occasional@",
+									"cost_adj": "-5%",
+									"disabled": true
+								},
+								{
+									"id": "mAfjn-NUOSYT1DZ9T",
+									"name": "Bane",
+									"reference": "H14",
+									"local_notes": "@Rare@",
+									"cost_adj": "-1",
+									"disabled": true
+								},
+								{
+									"id": "mGd_DNe_eOjO1b44u",
+									"name": "Can't wear armor",
+									"reference": "B47",
+									"cost_adj": "-40%",
+									"disabled": true
+								},
+								{
+									"id": "mwC7FzRffBG2zumPq",
+									"name": "Directional",
+									"reference": "B47",
+									"local_notes": "Front",
+									"cost_adj": "-20%",
+									"disabled": true
+								},
+								{
+									"id": "m8_SB4ZcYVtbmT2x4",
+									"name": "Directional",
+									"reference": "B47",
+									"local_notes": "@Direction: Back, Right, Left, Top or Underside@",
+									"cost_adj": "-40%",
+									"disabled": true
+								},
+								{
+									"id": "mNuSsZ0rP8HnwFGTY",
+									"name": "Flexible",
+									"reference": "B47",
+									"cost_adj": "-20%",
+									"disabled": true
+								},
+								{
+									"id": "mBlU7HGnNT7tkJuol",
+									"name": "Limited",
+									"reference": "B46",
+									"local_notes": "@Very Common Attack Form@",
+									"cost_adj": "-20%",
+									"disabled": true
+								},
+								{
+									"id": "mIOe_STo0WLraPi8s",
+									"name": "Limited",
+									"reference": "B46",
+									"local_notes": "@Common Attack Form@",
+									"cost_adj": "-40%",
+									"calc": {
+										"resolved_notes": "heat/fire only"
+									}
+								},
+								{
+									"id": "m-xYR48d8ajABNrXN",
+									"name": "Limited",
+									"reference": "B46",
+									"local_notes": "@Occasional Attack Form@",
+									"cost_adj": "-60%",
+									"disabled": true
+								},
+								{
+									"id": "maa5CvUhOqJ3Ri6Mk",
+									"name": "Limited",
+									"reference": "B46",
+									"local_notes": "@Rare Attack Form@",
+									"cost_adj": "-80%",
+									"disabled": true
+								},
+								{
+									"id": "mTiKTIg_j6PgqC_mV",
+									"name": "Partial (@Location, 1 level per -1 Per Hit Modifier, Torso is -10% thus level 1@)",
+									"reference": "B47",
+									"cost_adj": "-10%",
+									"disabled": true
+								},
+								{
+									"id": "mRO8aQ_5g7b6zLpGT",
+									"name": "Semi-Ablative",
+									"reference": "B47",
+									"cost_adj": "-20%",
+									"disabled": true
+								},
+								{
+									"id": "mMD1Ll1CZc_ZDcm7y",
+									"name": "Tough Skin",
+									"reference": "B47",
+									"local_notes": "Effects that just require skin contact or a scratch ignore this DR",
+									"cost_adj": "-40%",
+									"disabled": true
+								}
+							]
+						}
+					],
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"arm",
+								"face",
+								"foot",
+								"groin",
+								"hand",
+								"leg",
+								"neck",
+								"skull",
+								"torso",
+								"vitals"
+							],
+							"specialization": "burning",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 25,
+					"calc": {
+						"points": 75,
+						"current_level": 25
+					}
+				},
+				{
+					"id": "tOyZ9hDH28mTkkzOR",
+					"name": "Decreased Basic Move",
+					"reference": "DFA11",
+					"tags": [
+						"Attribute",
+						"Disadvantage",
+						"Physical"
+					],
+					"points_per_level": -5,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "basic_move",
+							"amount": -1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": -5,
+						"current_level": 1
+					}
+				},
+				{
+					"id": "tFU0Nv946BLYdTLrv",
+					"name": "Fiery",
+					"reference": "DFRM2:19",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"base_points": 5,
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "tuQZP0dP1ZPQZZPAj",
+					"name": "Lifting ST",
+					"reference": "DFA16",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"points_per_level": 3,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"limitation": "lifting_only",
+							"attribute": "st",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 2,
+					"calc": {
+						"points": 6,
+						"current_level": 2
+					}
+				},
+				{
+					"id": "tuWCTxYHwUfGOF8aW",
+					"name": "No Blood",
+					"reference": "DFM11",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"base_points": 5,
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "tAVmk4-ZM-3DhxcQj",
+					"name": "Pickaxe Penchant",
+					"reference": "DFA44",
+					"tags": [
+						"Advantage",
+						"Mental"
+					],
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "contains",
+								"qualifier": "axe/mace"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "forced entry"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "prospecting"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "thrown weapon"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "two handed axe/mace"
+							},
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 5,
+						"current_level": 1
+					}
+				},
+				{
+					"id": "tqFHfNfWXG50U-n5B",
+					"name": "Resistant to Disease",
+					"reference": "DFA52",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"points_per_level": 1,
+					"can_level": true,
+					"levels": 6,
+					"calc": {
+						"points": 6,
+						"current_level": 6
+					}
+				},
+				{
+					"id": "tbgpHHFtCqPVwomP9",
+					"name": "Resistant to Poison",
+					"reference": "DFA52",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"points_per_level": 1,
+					"can_level": true,
+					"levels": 6,
+					"calc": {
+						"points": 6,
+						"current_level": 6
+					}
+				},
+				{
+					"id": "tHTyAK_eWULzRqcYY",
+					"name": "Temperature Tolerance (Hot)",
+					"reference": "DFA16",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"points_per_level": 1,
+					"can_level": true,
+					"levels": 10,
+					"calc": {
+						"points": 10,
+						"current_level": 10
+					}
+				},
+				{
+					"id": "tVuTlaGA74D5YODeL",
+					"name": "Tough Skin",
+					"reference": "DFA16",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"points_per_level": 3,
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"skull"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"face"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"neck"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"torso"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"vitals"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"groin"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"arm"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"hand"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"leg"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"foot"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"tail"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"wing"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"fin"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"brain"
+							],
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 2,
+					"calc": {
+						"points": 6,
+						"current_level": 2
+					}
+				},
+				{
+					"id": "tbPTvvD5kSbOXVjAU",
+					"name": "Appearance",
+					"reference": "DFRM2:19, DFM12",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mOIcj6B9AfGizSmK2",
+							"name": "Androgynous",
+							"disabled": true
+						},
+						{
+							"id": "mgqVnPYYp-B9uAP1l",
+							"name": "Impressive",
+							"disabled": true
+						},
+						{
+							"id": "mRGsy3y96qSMayov6",
+							"name": "Attractive",
+							"cost_adj": "4",
+							"disabled": true
+						},
+						{
+							"id": "mxCbFMG9VTA7jLrBY",
+							"name": "Average",
+							"disabled": true
+						},
+						{
+							"id": "mq05iYR8oUpCIIvNb",
+							"name": "Horrific",
+							"cost_adj": "-24",
+							"disabled": true
+						},
+						{
+							"id": "mmtkzkndtwWA_2S3t",
+							"name": "Monstrous",
+							"cost_adj": "-20",
+							"disabled": true
+						},
+						{
+							"id": "mATkXO24hBay-qeGK",
+							"name": "Hideous",
+							"cost_adj": "-16"
+						},
+						{
+							"id": "msKyuJJ9iMFO1tX2b",
+							"name": "Ugly",
+							"cost_adj": "-8",
+							"disabled": true
+						},
+						{
+							"id": "mTBrX_rPpX5VeviEW",
+							"name": "Unattractive",
+							"cost_adj": "-4",
+							"disabled": true
+						},
+						{
+							"id": "mHG-vFZ4w_5g8dOZG",
+							"name": "Handsome",
+							"cost_adj": "12",
+							"disabled": true
+						},
+						{
+							"id": "mrs67pThsZT6-R566",
+							"name": "Beautiful",
+							"cost_adj": "12",
+							"disabled": true
+						},
+						{
+							"id": "mxfy48oGFNmtneNgc",
+							"name": "Very Handsome",
+							"cost_adj": "16",
+							"disabled": true
+						},
+						{
+							"id": "mLkTyacoe2225lwif",
+							"name": "Very Beautiful",
+							"cost_adj": "16",
+							"disabled": true
+						},
+						{
+							"id": "mYUDWzLpfSNTTyKzk",
+							"name": "Transcendent",
+							"cost_adj": "20",
+							"disabled": true
+						}
+					],
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others",
+							"amount": 1
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Sex Appeal"
+							},
+							"amount": -8
+						}
+					],
+					"calc": {
+						"points": -16
+					}
+				},
+				{
+					"id": "tYr0TNalAgqNnOwGF",
+					"name": "Bad Temper",
+					"reference": "DFA57",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -10,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "tXTR3W6E6URbQc0rS",
+					"name": "Pyromania",
+					"reference": "DFA65",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 9,
+					"base_points": -5,
+					"calc": {
+						"points": -7
+					}
+				},
+				{
+					"id": "t-5DcpDnRR4NstnMd",
+					"name": "Stubbornness",
+					"reference": "DFA66",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "tz2NEW7hFo6LhfIT1",
+					"name": "Weakness",
+					"reference": "DFM14",
+					"tags": [
+						"Disadvantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mrajdRERwQXxsxjj8",
+							"name": "1d damage per minute",
+							"reference": "B161",
+							"cost_adj": "-20"
+						},
+						{
+							"id": "mhFH0a11MD08cOerm",
+							"name": "1d damage per 5 minutes",
+							"reference": "B161",
+							"cost_adj": "-10",
+							"disabled": true
+						},
+						{
+							"id": "mIZqsO9J0BKPrOyDm",
+							"name": "1d damage per 30 minutes",
+							"reference": "B161",
+							"cost_adj": "-5",
+							"disabled": true
+						},
+						{
+							"id": "m4-_njA10PGGr3-HN",
+							"name": "immersion in water",
+							"reference": "B161",
+							"cost_adj": "x0.5"
+						},
+						{
+							"id": "mFNQoTee9K-wtX1Nv",
+							"name": "@Occasional Substance@",
+							"reference": "B161",
+							"cost_adj": "x1",
+							"disabled": true
+						},
+						{
+							"id": "mELAEwcx4lN1N8IXr",
+							"name": "@Common Substance@",
+							"reference": "B161",
+							"cost_adj": "x2",
+							"disabled": true
+						},
+						{
+							"id": "mq7v-PQL1un1Rcg0N",
+							"name": "@Very Common Substance@",
+							"reference": "B161",
+							"cost_adj": "x3",
+							"disabled": true
+						},
+						{
+							"id": "m_XcKH6bWi6-C9hvn",
+							"name": "Fatigue Only",
+							"reference": "B161",
+							"cost_adj": "-50%",
+							"disabled": true
+						},
+						{
+							"id": "m-4TXwYmrv0wDjMa8",
+							"name": "Variable",
+							"reference": "B161",
+							"cost_adj": "-40%",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "tJGnFu7X9BUcEUonq",
+					"name": "Feature: Armor isn't interchangeable with human armor",
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "tSzolAinAgoOnlKiy",
+					"name": "Feature: Consumes minerals equal in cost and weight to rations; can't eat food",
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "tHmQr10eDyk2L4mo2",
+					"name": "Feature: Cannot become a caster",
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "tizjjDnoi3QQOsEyc",
+					"name": "Feature: Considered magical—for good or ill",
+					"calc": {
+						"points": 0
+					}
+				}
+			],
+			"calc": {
+				"points": 100
+			}
+		}
+	]
+}
