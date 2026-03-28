@@ -10,7 +10,12 @@
 			"container_type": "ancestry",
 			"children": [
 				{
-					"id": "tTYesmprim_mKauOK",
+					"id": "t7xiyFE-45b7Zcamf",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tV8QXYdPRF-p3fvCr"
+					},
 					"name": "Increased Strength",
 					"reference": "DFA8",
 					"tags": [
@@ -35,7 +40,12 @@
 					}
 				},
 				{
-					"id": "t5bR8672IjmVaSCJY",
+					"id": "tEW1j85U_syzVzimf",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tcZXB3KFDW8la-cas"
+					},
 					"name": "Increased Perception",
 					"reference": "DFA10",
 					"tags": [
@@ -63,8 +73,8 @@
 				{
 					"id": "tYBpCH_urNX52DE14",
 					"source": {
-						"library": "/gcs_user_library",
-						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Norðlond/Norðlondr Fólk Traits.adq",
 						"id": "tgsjL-JkLuZVZ5r2k"
 					},
 					"name": "Extra Head",
@@ -122,7 +132,12 @@
 					}
 				},
 				{
-					"id": "tVc2zkV9UwNLJnxij",
+					"id": "tvxco7m4pEZ8i-ORy",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tTUGgHYP1jjQ2ZlvH"
+					},
 					"name": "Multi-Aim",
 					"reference": "DFA35",
 					"tags": [
@@ -139,7 +154,12 @@
 					}
 				},
 				{
-					"id": "tcvq5Hfvj_yGey-7O",
+					"id": "txu8Keq7bwkJJScVd",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "twJazxjr-ydlqPk2L"
+					},
 					"name": "Night Vision",
 					"reference": "DFA51",
 					"tags": [
@@ -155,7 +175,12 @@
 					}
 				},
 				{
-					"id": "tfSYNzMU0grSH7q4v",
+					"id": "tiOij8J3F3ckHZ8Ao",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "toCvGC_uYX7cT-tF0"
+					},
 					"name": "Penetrating Voice",
 					"reference": "DFA52",
 					"tags": [
@@ -168,20 +193,38 @@
 					}
 				},
 				{
-					"id": "tgBv2uGiEvCn-hDpE",
+					"id": "tYbqIxVgf4tC_cEJ2",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tBtfR7IQglJZxJpxX"
+					},
 					"name": "Peripheral Vision",
 					"reference": "DFA52",
+					"local_notes": "Defend at no penalty from attacks to your left or right hex. Defend at only -2 from behind.",
 					"tags": [
 						"Advantage",
 						"Physical"
 					],
 					"base_points": 15,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to rolls to detect Shadowing attempts or ambushes from behind",
+							"amount": 3
+						}
+					],
 					"calc": {
 						"points": 15
 					}
 				},
 				{
-					"id": "tS6MXtw8ZMxqzKxUm",
+					"id": "t8vZolgoABkaKTBL-",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tL2r9xCTSlgek2APD"
+					},
 					"name": "Sharp Claws",
 					"reference": "DFA43",
 					"tags": [
@@ -191,7 +234,7 @@
 					"base_points": 5,
 					"weapons": [
 						{
-							"id": "wzUhOLdmX_rrNeRJN",
+							"id": "wwPEG87oZ8Gi7qJyG",
 							"sv": 1,
 							"damage": {
 								"type": "cut",
@@ -223,7 +266,7 @@
 							}
 						},
 						{
-							"id": "wJyX-Ih3nhTrY_6GR",
+							"id": "w25rI0q5fV6JpMgDF",
 							"sv": 1,
 							"damage": {
 								"type": "cut",
@@ -257,7 +300,12 @@
 					}
 				},
 				{
-					"id": "t78ITFkt2KKa8ezfW",
+					"id": "tgQCaD8g43h08QySI",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tFXoEIPFHVoZ9uTaj"
+					},
 					"name": "Temperature Tolerance (Cold)",
 					"reference": "DFA16",
 					"tags": [
@@ -265,6 +313,14 @@
 						"Physical"
 					],
 					"points_per_level": 1,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to HT rolls to resist cold-related effects",
+							"amount": 1,
+							"per_level": true
+						}
+					],
 					"can_level": true,
 					"levels": 1,
 					"calc": {
@@ -273,7 +329,12 @@
 					}
 				},
 				{
-					"id": "tsCiCfhv_Wk8kmEvt",
+					"id": "t106fLMjiy02K1f7r",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tTMoWXVYA-iHtg7JO"
+					},
 					"name": "Tough Skin",
 					"reference": "DFA16",
 					"tags": [
@@ -404,7 +465,12 @@
 					}
 				},
 				{
-					"id": "t6Oq77AuLq0lPK3-N",
+					"id": "t4wOo_O2xg6ptYHNu",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tTtmOefQF1naljUNT"
+					},
 					"name": "Bad Temper",
 					"reference": "DFA57",
 					"tags": [
@@ -418,7 +484,12 @@
 					}
 				},
 				{
-					"id": "twqY-L5aPFnKG9nzL",
+					"id": "tAET8WqAcDRfnYgO8",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "ttNblvfAxWwZhtcgm"
+					},
 					"name": "Gluttony",
 					"reference": "DFA60",
 					"tags": [
@@ -432,7 +503,12 @@
 					}
 				},
 				{
-					"id": "tFyIRNxTZQc4dOJ4X",
+					"id": "t5pZhwj4jW8bX8OiL",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tnD8vGE_gAipOhZxJ"
+					},
 					"name": "Short Attention Span",
 					"reference": "DFA66",
 					"tags": [
@@ -446,7 +522,12 @@
 					}
 				},
 				{
-					"id": "tdNIxSWyRFQIG2HZ5",
+					"id": "tkkfdwa-UBZy0n9Kr",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "th7GchZn7xSC9GBTI"
+					},
 					"name": "Weirdness Magnet",
 					"reference": "DFA67",
 					"tags": [
@@ -503,8 +584,8 @@
 				{
 					"id": "t86zAJ_rpSGH2TgGl",
 					"source": {
-						"library": "/gcs_user_library",
-						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Norðlond/Norðlondr Fólk Traits.adq",
 						"id": "ts68FoPjr9eHjUZPI"
 					},
 					"name": "Feline Hearing",
@@ -541,8 +622,8 @@
 				{
 					"id": "titMQeW-lLaf1UCbL",
 					"source": {
-						"library": "/gcs_user_library",
-						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Norðlond/Norðlondr Fólk Traits.adq",
 						"id": "tdhyQuq3ZRbgoTr8L"
 					},
 					"name": "Iron Jaws",
@@ -559,10 +640,10 @@
 					}
 				},
 				{
-					"id": "twvo40jmbvlnCtRQm",
+					"id": "tT0_iNSJYDX0_u-nD",
 					"source": {
-						"library": "/gcs_user_library",
-						"path": "gcs_master_library/Library/Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
 						"id": "t9aKTdSdvVzaa6WcG"
 					},
 					"name": "Luck, Ridiculous",
@@ -592,7 +673,12 @@
 					}
 				},
 				{
-					"id": "tAjERkV1glBmxPycj",
+					"id": "t0ivwD3MwFbL0ZXbA",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tGMnrhT38nhczCB4C"
+					},
 					"name": "Perfect Balance",
 					"reference": "DFA52",
 					"tags": [
@@ -636,7 +722,7 @@
 				{
 					"id": "tvTVt8CWoP2wqEKD8",
 					"source": {
-						"library": "/gcs_user_library",
+						"library": "richardwilkes/gcs_master_library",
 						"path": "gcs_master_library/Library/Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
 						"id": "trNwVMHSOidcK5hA2"
 					},
@@ -655,7 +741,12 @@
 					}
 				},
 				{
-					"id": "tAFXZDtLrKTGuWy19",
+					"id": "tbIdT9crxQQpQvJOQ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tIx-NRK1SqrXKA_h7"
+					},
 					"name": "Silence",
 					"reference": "DFA35",
 					"tags": [
@@ -664,17 +755,6 @@
 						"Physical"
 					],
 					"points_per_level": 5,
-					"features": [
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "stealth"
-							},
-							"amount": 2
-						}
-					],
 					"can_level": true,
 					"levels": 2,
 					"calc": {
@@ -683,7 +763,12 @@
 					}
 				},
 				{
-					"id": "tPKNN6EVtsycc81-k",
+					"id": "tluBOlOwkRRoEjKoA",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tFXoEIPFHVoZ9uTaj"
+					},
 					"name": "Temperature Tolerance (Cold)",
 					"reference": "DFA16",
 					"tags": [
@@ -691,6 +776,14 @@
 						"Physical"
 					],
 					"points_per_level": 1,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to HT rolls to resist cold-related effects",
+							"amount": 1,
+							"per_level": true
+						}
+					],
 					"can_level": true,
 					"levels": 3,
 					"calc": {

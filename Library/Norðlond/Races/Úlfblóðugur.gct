@@ -10,7 +10,12 @@
 			"container_type": "ancestry",
 			"children": [
 				{
-					"id": "tZe--N6p0nW1sXBMn",
+					"id": "tw-hYIegK_2kLUKZt",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "twYw6ktd3pc2h6vZC"
+					},
 					"name": "Increased Health",
 					"reference": "DFA8",
 					"tags": [
@@ -35,7 +40,12 @@
 					}
 				},
 				{
-					"id": "tAi9lEW4695VFoO_T",
+					"id": "tE9tZdb71Arihaynx",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tcZXB3KFDW8la-cas"
+					},
 					"name": "Increased Perception",
 					"reference": "DFA10",
 					"tags": [
@@ -61,7 +71,12 @@
 					}
 				},
 				{
-					"id": "tJu5I1KhjdJEKQu3m",
+					"id": "tSPeC8meJCnkB6bbA",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "ttWkrLkj_AuZ3Qy8j"
+					},
 					"name": "Acute Hearing",
 					"reference": "DFA46",
 					"tags": [
@@ -87,8 +102,8 @@
 				{
 					"id": "tT5suD101dFAiE2z9",
 					"source": {
-						"library": "/gcs_user_library",
-						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Norðlond/Norðlondr Fólk Traits.adq",
 						"id": "tpqBmK4vbpb-0FykZ"
 					},
 					"name": "Blunt Claws",
@@ -169,7 +184,12 @@
 					}
 				},
 				{
-					"id": "tDFdpEUsa1PcVBt7A",
+					"id": "t2fFnJYzpQvnbGmjf",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tr8NtOIzPwqGZNK9g"
+					},
 					"name": "Discriminatory Smell",
 					"reference": "DFA16",
 					"tags": [
@@ -178,12 +198,33 @@
 						"Physical"
 					],
 					"base_points": 15,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Tracking"
+							},
+							"amount": 4
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "to any task that utilizes the sense of smell",
+							"amount": 4
+						}
+					],
 					"calc": {
 						"points": 15
 					}
 				},
 				{
-					"id": "t3L9d7idJlcHk_t-_",
+					"id": "t1y3KF3w2-sIMCtNW",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "toCvGC_uYX7cT-tF0"
+					},
 					"name": "Penetrating Voice",
 					"reference": "DFA52",
 					"tags": [
@@ -196,8 +237,13 @@
 					}
 				},
 				{
-					"id": "tc-Zh1MdUC3fqWjJf",
-					"name": "Teeth, Sharp",
+					"id": "tplt-CPk_xXwE-mrK",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tcai2fZI6YXeRMpgJ"
+					},
+					"name": "Sharp Teeth",
 					"reference": "DFA43",
 					"tags": [
 						"Advantage",
@@ -207,7 +253,7 @@
 					"base_points": 1,
 					"weapons": [
 						{
-							"id": "w6X1917UTiaO-nDzJ",
+							"id": "wdXEuNRcQCJkIDWNH",
 							"sv": 1,
 							"damage": {
 								"type": "cut",
@@ -235,7 +281,12 @@
 					}
 				},
 				{
-					"id": "twS_DWWVcbNOFSO-s",
+					"id": "tnp3uvGurQSBmJNtE",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tFXoEIPFHVoZ9uTaj"
+					},
 					"name": "Temperature Tolerance (Cold)",
 					"reference": "DFA16",
 					"tags": [
@@ -243,6 +294,14 @@
 						"Physical"
 					],
 					"points_per_level": 1,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to HT rolls to resist cold-related effects",
+							"amount": 1,
+							"per_level": true
+						}
+					],
 					"can_level": true,
 					"levels": 1,
 					"calc": {
@@ -251,7 +310,12 @@
 					}
 				},
 				{
-					"id": "t7v8tlSorBdko_rA-",
+					"id": "tGlhJMcxug6Z8XmJF",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "teA40KZf6tOTEDbgg"
+					},
 					"name": "Easy to Read",
 					"reference": "DFA60",
 					"tags": [
@@ -264,7 +328,12 @@
 					}
 				},
 				{
-					"id": "tiotUctPKQE4MZ5ls",
+					"id": "tKsV4vGeWpYno83iM",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tIhtnZEtQlmZynkmt"
+					},
 					"name": "Sense of Duty",
 					"reference": "DFA65",
 					"tags": [
@@ -273,10 +342,38 @@
 					],
 					"modifiers": [
 						{
-							"id": "mFjJzbg9G6BZM4hpc",
+							"id": "mumaFYY5_NEbPvMR1",
 							"name": "Adventuring Companions",
 							"reference": "DFA65",
 							"cost_adj": "-5"
+						},
+						{
+							"id": "mdEdA2XZanmz0vL0T",
+							"name": "Nation",
+							"reference": "DFA65",
+							"cost_adj": "-10",
+							"disabled": true
+						},
+						{
+							"id": "mDysglm260SZs1Y5e",
+							"name": "Coreligionists",
+							"reference": "DFA65",
+							"cost_adj": "-10",
+							"disabled": true
+						},
+						{
+							"id": "mwUEnAFLko4Ct-zHe",
+							"name": "Good Entities",
+							"reference": "DFA65",
+							"cost_adj": "-10",
+							"disabled": true
+						},
+						{
+							"id": "morL9RB7V7PhmCqrX",
+							"name": "Nature",
+							"reference": "DFA66",
+							"cost_adj": "-15",
+							"disabled": true
 						}
 					],
 					"calc": {
@@ -327,7 +424,12 @@
 			"reference": "NF10",
 			"children": [
 				{
-					"id": "tk-DqIrg54vWwCN-e",
+					"id": "ta4DkavDNjvupaQVP",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tcZXB3KFDW8la-cas"
+					},
 					"name": "Increased Perception",
 					"reference": "DFA10",
 					"tags": [
@@ -355,8 +457,8 @@
 				{
 					"id": "tvBfq-GWaY-DRVmtE",
 					"source": {
-						"library": "/gcs_user_library",
-						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Norðlond/Norðlondr Fólk Traits.adq",
 						"id": "tU3HIBcgtLO-mGy0Z"
 					},
 					"name": "Pack Bond",
@@ -376,7 +478,12 @@
 					}
 				},
 				{
-					"id": "ts6OB1-AAxDaJm-4c",
+					"id": "tsDDFY6_Yossk1NhQ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tFXoEIPFHVoZ9uTaj"
+					},
 					"name": "Temperature Tolerance (Cold)",
 					"reference": "DFA16",
 					"tags": [
@@ -384,6 +491,14 @@
 						"Physical"
 					],
 					"points_per_level": 1,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to HT rolls to resist cold-related effects",
+							"amount": 1,
+							"per_level": true
+						}
+					],
 					"can_level": true,
 					"levels": 3,
 					"calc": {

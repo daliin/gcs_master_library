@@ -781,6 +781,10 @@
 				{
 					"type": "spell_bonus",
 					"match": "college_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Illusion"
+					},
 					"amount": 1,
 					"per_level": true
 				},

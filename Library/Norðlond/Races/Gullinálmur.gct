@@ -10,7 +10,12 @@
 			"container_type": "ancestry",
 			"children": [
 				{
-					"id": "tTPUIwSTVTi7-OW5z",
+					"id": "thwPBNO_ob_AqIr7I",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tV8QXYdPRF-p3fvCr"
+					},
 					"name": "Increased Strength",
 					"reference": "DFA8",
 					"tags": [
@@ -35,7 +40,12 @@
 					}
 				},
 				{
-					"id": "tRnxpetzRwWxST-O7",
+					"id": "tRzn5aVAZ7kSAvyhI",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "twYw6ktd3pc2h6vZC"
+					},
 					"name": "Increased Health",
 					"reference": "DFA8",
 					"tags": [
@@ -60,7 +70,12 @@
 					}
 				},
 				{
-					"id": "t5BrAea3c1zSScQJ5",
+					"id": "tqKtt_jYtH5ubTLbl",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tmf4B_MlXbAmzn3Kl"
+					},
 					"name": "Extra Hit Points",
 					"reference": "DFA10",
 					"tags": [
@@ -87,8 +102,8 @@
 				{
 					"id": "tgnjmFbGTO9Ve9LKL",
 					"source": {
-						"library": "/gcs_user_library",
-						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Norðlond/Norðlondr Fólk Traits.adq",
 						"id": "twUB1adIpMQo4yyca"
 					},
 					"name": "Cast-Iron Stomach",
@@ -151,15 +166,32 @@
 					}
 				},
 				{
-					"id": "t7bpWIWmH865rPKCo",
+					"id": "tqdNxSTXOnHd93J_U",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tc_Qbi7FjKyAHTlbT"
+					},
 					"name": "High Pain Threshold",
 					"reference": "DFA50",
-					"local_notes": "Never suffer shock penalties when injured; +3 on all HT rolls to avoid knockdown and stunning; +3 to resist torture",
+					"local_notes": "Never suffer shock penalties when injured",
 					"tags": [
 						"Advantage",
 						"Physical"
 					],
 					"base_points": 10,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "on all HT rolls to avoid knockdown and stunning",
+							"amount": 3
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "to resist torture",
+							"amount": 3
+						}
+					],
 					"calc": {
 						"points": 10
 					}
@@ -167,8 +199,8 @@
 				{
 					"id": "tVYvf1-oY_WPQlO_7",
 					"source": {
-						"library": "/gcs_user_library",
-						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Norðlond/Norðlondr Fólk Traits.adq",
 						"id": "t-VHEUGXLmsOtPkCt"
 					},
 					"name": "Ramming Speed",
@@ -184,7 +216,12 @@
 					}
 				},
 				{
-					"id": "tvx3baNTFCxg-eE6p",
+					"id": "tm5xKG3dpEdBSY-8p",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tHmCDlcIIgJ4x_Cqg"
+					},
 					"name": "Unfazeable",
 					"reference": "DFA53",
 					"tags": [
@@ -197,18 +234,98 @@
 					}
 				},
 				{
-					"id": "tDBnMzdBsR71ecZIN",
+					"id": "t3E7g-O3Hv4Y5KSG9",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tu6xtwgA-Qz8sU7fX"
+					},
 					"name": "Appearance",
 					"reference": "DFA47",
 					"tags": [
-						"Advantage",
+						"Disadvantage",
 						"Physical"
 					],
 					"modifiers": [
 						{
-							"id": "mDTtvY01X1DZjXt0o",
+							"id": "mzbXgOC2sjY_QP9Gn",
+							"name": "Androgynous",
+							"disabled": true
+						},
+						{
+							"id": "mwLWIiifn7Az2xG8V",
+							"name": "Impressive",
+							"disabled": true
+						},
+						{
+							"id": "mU2U2JetRjtXDeFI3",
+							"name": "Attractive",
+							"cost_adj": "4",
+							"disabled": true
+						},
+						{
+							"id": "mFISlCv05sKuGJSs1",
+							"name": "Average",
+							"disabled": true
+						},
+						{
+							"id": "mr6EpT9gBMnl52dST",
+							"name": "Horrific",
+							"cost_adj": "-24",
+							"disabled": true
+						},
+						{
+							"id": "my_GSD706dloCxGpa",
+							"name": "Monstrous",
+							"cost_adj": "-20",
+							"disabled": true
+						},
+						{
+							"id": "mEFGXXUVQB_6s_Ts4",
+							"name": "Hideous",
+							"cost_adj": "-16",
+							"disabled": true
+						},
+						{
+							"id": "m9UiYmMynsIH9KBrY",
+							"name": "Ugly",
+							"cost_adj": "-8",
+							"disabled": true
+						},
+						{
+							"id": "mHLck9MTpN5-ktyMx",
 							"name": "Unattractive",
 							"cost_adj": "-4"
+						},
+						{
+							"id": "mdfiKKYpjbkJAR7mO",
+							"name": "Handsome",
+							"cost_adj": "12",
+							"disabled": true
+						},
+						{
+							"id": "mMZI_PzIG7tXyvmaJ",
+							"name": "Beautiful",
+							"cost_adj": "12",
+							"disabled": true
+						},
+						{
+							"id": "mOok0SK2gT-c2x2OA",
+							"name": "Very Handsome",
+							"cost_adj": "16",
+							"disabled": true
+						},
+						{
+							"id": "mYuGOQtACakEcnwAb",
+							"name": "Very Beautiful",
+							"cost_adj": "16",
+							"disabled": true
+						},
+						{
+							"id": "mn5mz5BKWLzXQhlKE",
+							"name": "Transcendent",
+							"cost_adj": "20",
+							"disabled": true
 						}
 					],
 					"calc": {
@@ -216,7 +333,12 @@
 					}
 				},
 				{
-					"id": "tbaizCpPhyNDyWAXk",
+					"id": "tPD3-LXmPdYvAXWvv",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tPA199Y2GXi91cTAB"
+					},
 					"name": "Bully",
 					"reference": "DFA57",
 					"tags": [
@@ -230,7 +352,12 @@
 					}
 				},
 				{
-					"id": "tJNTwtJMam-vB-BDG",
+					"id": "teYCGQfqfQRKmqcOj",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tBX7h2MsESjj72MnY"
+					},
 					"name": "Impulsiveness",
 					"reference": "DFA61",
 					"tags": [
@@ -265,10 +392,10 @@
 			"reference": "NF9",
 			"children": [
 				{
-					"id": "tzyS-yYo1kVsVRYTL",
+					"id": "tKlRdwgrB-QUIDvf6",
 					"source": {
-						"library": "/gcs_user_library",
-						"path": "gcs_master_library/Library/Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
 						"id": "tmf4B_MlXbAmzn3Kl"
 					},
 					"name": "Extra Hit Points",
@@ -297,8 +424,8 @@
 				{
 					"id": "tPgH2YXE4c2ckQKah",
 					"source": {
-						"library": "/gcs_user_library",
-						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Norðlond/Norðlondr Fólk Traits.adq",
 						"id": "tOGt3Dc6NRQR5rdE8"
 					},
 					"name": "Grand Slam",
@@ -317,10 +444,10 @@
 					}
 				},
 				{
-					"id": "tDrCWX06f7xc-syQI",
+					"id": "tccNGPN820wNDkNZy",
 					"source": {
-						"library": "/gcs_user_library",
-						"path": "gcs_master_library/Library/Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
 						"id": "tTMoWXVYA-iHtg7JO"
 					},
 					"name": "Tough Skin",

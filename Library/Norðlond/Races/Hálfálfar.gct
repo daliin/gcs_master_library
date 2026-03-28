@@ -10,7 +10,12 @@
 			"container_type": "ancestry",
 			"children": [
 				{
-					"id": "tJ8OVuFO6l16mSLT3",
+					"id": "tXqRIl2TOHR9K6Kav",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tcZXB3KFDW8la-cas"
+					},
 					"name": "Increased Perception",
 					"reference": "DFA10",
 					"tags": [
@@ -36,7 +41,12 @@
 					}
 				},
 				{
-					"id": "ttr2L22JBl02aVhAo",
+					"id": "tglfGCCNEF4-q_hh_",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tj_maQj_x_ZWhXaEz"
+					},
 					"name": "Increased Will",
 					"reference": "DFA10",
 					"tags": [
@@ -77,26 +87,20 @@
 					}
 				},
 				{
-					"id": "tnN6aJ9ilrUoV-Gbl",
+					"id": "t5iFlBhErQy_75C0t",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tRsaJRTyttqRGdWkX"
+					},
 					"name": "Charisma",
 					"reference": "DFA48",
-					"local_notes": "+1/level to Influence rolls",
 					"tags": [
 						"Advantage",
 						"Mental"
 					],
 					"points_per_level": 5,
 					"features": [
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "fortune-telling"
-							},
-							"amount": 1,
-							"per_level": true
-						},
 						{
 							"type": "skill_bonus",
 							"selection_type": "skills_with_name",
@@ -126,6 +130,12 @@
 							},
 							"amount": 1,
 							"per_level": true
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "to influence roles",
+							"amount": 1,
+							"per_level": true
 						}
 					],
 					"can_level": true,
@@ -136,7 +146,12 @@
 					}
 				},
 				{
-					"id": "ti0pt77pQBShSC6Qy",
+					"id": "tnmmEBq49xbOuF3G3",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "t3weAqCq6xLUfAn_-"
+					},
 					"name": "Magery",
 					"reference": "DFA41",
 					"tags": [
@@ -177,8 +192,8 @@
 				{
 					"id": "tFOWniLSTYMfvC3OP",
 					"source": {
-						"library": "/gcs_user_library",
-						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Norðlond/Norðlondr Fólk Traits.adq",
 						"id": "tkc0kBg_bAZBEH0cC"
 					},
 					"name": "Resistant to Glamour",
@@ -205,7 +220,12 @@
 					}
 				},
 				{
-					"id": "tENVCR4LeXkdUkfde",
+					"id": "tOaK1ShuUIOjN-eR1",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tx656qWP4B1ENQH4p"
+					},
 					"name": "Trickster",
 					"reference": "DFA66",
 					"tags": [
@@ -253,8 +273,8 @@
 				{
 					"id": "tNRYW8X_xq6N_hGdX",
 					"source": {
-						"library": "/gcs_user_library",
-						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Norðlond/Norðlondr Fólk Traits.adq",
 						"id": "tJ12eFwtPTdPv4Xdf"
 					},
 					"name": "Acute Mage Sense",
@@ -275,26 +295,20 @@
 					}
 				},
 				{
-					"id": "tdw804lp434GkD7dh",
+					"id": "t_tfy3JNqK_fBfg67",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tRsaJRTyttqRGdWkX"
+					},
 					"name": "Charisma",
 					"reference": "DFA48",
-					"local_notes": "+1/level to Influence rolls",
 					"tags": [
 						"Advantage",
 						"Mental"
 					],
 					"points_per_level": 5,
 					"features": [
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "fortune-telling"
-							},
-							"amount": 1,
-							"per_level": true
-						},
 						{
 							"type": "skill_bonus",
 							"selection_type": "skills_with_name",
@@ -324,6 +338,12 @@
 							},
 							"amount": 1,
 							"per_level": true
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "to influence roles",
+							"amount": 1,
+							"per_level": true
 						}
 					],
 					"can_level": true,
@@ -334,7 +354,12 @@
 					}
 				},
 				{
-					"id": "takDiOS7iB-bbeXwd",
+					"id": "t--rv--r_pSEG2FIN",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "t3weAqCq6xLUfAn_-"
+					},
 					"name": "Magery",
 					"reference": "DFA41",
 					"tags": [

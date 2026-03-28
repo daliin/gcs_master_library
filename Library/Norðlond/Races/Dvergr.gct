@@ -10,7 +10,12 @@
 			"container_type": "ancestry",
 			"children": [
 				{
-					"id": "tk1whq7pPGQea-Ebq",
+					"id": "tAffczZgMdEMvfnKs",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "twYw6ktd3pc2h6vZC"
+					},
 					"name": "Increased Health",
 					"reference": "DFA8",
 					"tags": [
@@ -35,7 +40,12 @@
 					}
 				},
 				{
-					"id": "tq5HpGpY9vCpMO4wI",
+					"id": "t0elEpiDflW5S1vpf",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tpruRmNniapVJRHjy"
+					},
 					"name": "Decreased Basic Move",
 					"reference": "DFA11",
 					"tags": [
@@ -60,7 +70,12 @@
 					}
 				},
 				{
-					"id": "t0w6DHs3v2stSkcOv",
+					"id": "tkjv4TXIHvmjCB8bT",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "t248UzHcLP7d7PM0C"
+					},
 					"name": "Dark Vision",
 					"reference": "DFM10",
 					"tags": [
@@ -74,7 +89,12 @@
 					}
 				},
 				{
-					"id": "td8aWGBilwB41q60U",
+					"id": "tglrXwXBoxEwLXumk",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "txs3KJsRO6N0xVGFu"
+					},
 					"name": "Dwarven Gear",
 					"reference": "DFA43",
 					"tags": [
@@ -88,8 +108,8 @@
 				{
 					"id": "tU89UjJQyrNxYKdf1",
 					"source": {
-						"library": "/gcs_user_library",
-						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Norðlond/Norðlondr Fólk Traits.adq",
 						"id": "tQCt4Kc6bSAZggq49"
 					},
 					"name": "Lifsleikni",
@@ -180,7 +200,12 @@
 					}
 				},
 				{
-					"id": "tCuvGVhgwgSS6hpGP",
+					"id": "th_cGKQFdMJUnH9PW",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tNz_WvLrp5hMH7KRL"
+					},
 					"name": "Resistant to Poison",
 					"reference": "DFA52",
 					"tags": [
@@ -196,7 +221,12 @@
 					}
 				},
 				{
-					"id": "tP_iWgcwEbLGW8In9",
+					"id": "txsfga9vrpqa_zDT-",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tTMoWXVYA-iHtg7JO"
+					},
 					"name": "Tough Skin",
 					"reference": "DFA16",
 					"tags": [
@@ -327,7 +357,12 @@
 					}
 				},
 				{
-					"id": "tiTFWtf7F1Neq3YF-",
+					"id": "tu1hLMjBnjCtYVj5R",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "t86Al1mZc85hcEuo6"
+					},
 					"name": "Honesty",
 					"reference": "DFA61",
 					"tags": [
@@ -343,8 +378,8 @@
 				{
 					"id": "twT9SqWcbVD5pVufE",
 					"source": {
-						"library": "/gcs_user_library",
-						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Norðlond/Norðlondr Fólk Traits.adq",
 						"id": "tLJHw9z_hso4sxqWZ"
 					},
 					"name": "Intolerance (Elder Races)",
@@ -421,8 +456,8 @@
 				{
 					"id": "t5U1JmaGC4uRINDVF",
 					"source": {
-						"library": "/gcs_user_library",
-						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Norðlond/Norðlondr Fólk Traits.adq",
 						"id": "tVkqOE-9iq8e_3urt"
 					},
 					"name": "Higher Purpose",
@@ -489,8 +524,8 @@
 				{
 					"id": "tPsQ0iBxC59lwlz0h",
 					"source": {
-						"library": "/gcs_user_library",
-						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Norðlond/Norðlondr Fólk Traits.adq",
 						"id": "tRxwAh5kygsr1pr1y"
 					},
 					"name": "Stonecunning",

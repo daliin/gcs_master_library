@@ -10,7 +10,12 @@
 			"container_type": "ancestry",
 			"children": [
 				{
-					"id": "tQljapBqqwOyrl1Bn",
+					"id": "tCpnYXPxmGv2cT87l",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tV8QXYdPRF-p3fvCr"
+					},
 					"name": "Increased Strength",
 					"reference": "DFA8",
 					"tags": [
@@ -35,7 +40,12 @@
 					}
 				},
 				{
-					"id": "tKUAERDuq1SQ_zd8t",
+					"id": "tOmF93w7vpr4EzHsF",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tj_maQj_x_ZWhXaEz"
+					},
 					"name": "Increased Will",
 					"reference": "DFA10",
 					"tags": [
@@ -99,8 +109,8 @@
 				{
 					"id": "t6z30xuu23OPYLQfB",
 					"source": {
-						"library": "/gcs_user_library",
-						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Norðlond/Norðlondr Fólk Traits.adq",
 						"id": "tUYua7mJ8k8DLxhFh"
 					},
 					"name": "Elemental Resistance",
@@ -153,7 +163,12 @@
 					}
 				},
 				{
-					"id": "t32uEzeIMhPcXPLvp",
+					"id": "tW540ddkVRl-w3E4t",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tL2r9xCTSlgek2APD"
+					},
 					"name": "Sharp Claws",
 					"reference": "DFA43",
 					"tags": [
@@ -163,7 +178,7 @@
 					"base_points": 5,
 					"weapons": [
 						{
-							"id": "w4t1ZbH-QLxBvFecX",
+							"id": "wky8pOkBREMYiUVlA",
 							"sv": 1,
 							"damage": {
 								"type": "cut",
@@ -195,7 +210,7 @@
 							}
 						},
 						{
-							"id": "wb1i3COCpA_RdILDk",
+							"id": "wCbp0oFwPOVkg1X4N",
 							"sv": 1,
 							"damage": {
 								"type": "cut",
@@ -229,8 +244,13 @@
 					}
 				},
 				{
-					"id": "tOeRk8-COpA6KaNag",
-					"name": "Teeth, Sharp",
+					"id": "t0T6CTbhznFuJ6vPX",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tcai2fZI6YXeRMpgJ"
+					},
+					"name": "Sharp Teeth",
 					"reference": "DFA43",
 					"tags": [
 						"Advantage",
@@ -240,7 +260,7 @@
 					"base_points": 1,
 					"weapons": [
 						{
-							"id": "w-7pzkZIaNCnPcP4O",
+							"id": "wjclXJ0TCmYL5TM-a",
 							"sv": 1,
 							"damage": {
 								"type": "cut",
@@ -268,7 +288,12 @@
 					}
 				},
 				{
-					"id": "tW9Ehf_YMcuuH9uGY",
+					"id": "tdG4H1snFyUW2S7RU",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tTMoWXVYA-iHtg7JO"
+					},
 					"name": "Tough Skin",
 					"reference": "DFA16",
 					"tags": [
@@ -399,7 +424,12 @@
 					}
 				},
 				{
-					"id": "tWGMX3X6X8UUUP9WM",
+					"id": "tcQX6MznXkii_61aQ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "twXb8Wnm3At1pNhNH"
+					},
 					"name": "Greed",
 					"reference": "DFA60",
 					"tags": [
@@ -415,8 +445,8 @@
 				{
 					"id": "tZXXxSpeVszOcf_pE",
 					"source": {
-						"library": "/gcs_user_library",
-						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Norðlond/Norðlondr Fólk Traits.adq",
 						"id": "tjpQZEjrHcWdXvMV8"
 					},
 					"name": "Restricted Diet",
@@ -456,8 +486,8 @@
 				{
 					"id": "t_fcKaEx7v6zFfgrh",
 					"source": {
-						"library": "/gcs_user_library",
-						"path": "gcs_master_library/Library/Norðlond/Norðlondr Fólk Traits.adq",
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Norðlond/Norðlondr Fólk Traits.adq",
 						"id": "tUYua7mJ8k8DLxhFh"
 					},
 					"name": "Elemental Resistance",
@@ -484,14 +514,27 @@
 					}
 				},
 				{
-					"id": "tebi-q79bvI3168h6",
-					"name": "Temperature Tolerance (Hot)",
+					"id": "t-SbfWwszQB9DSASW",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tFXoEIPFHVoZ9uTaj"
+					},
+					"name": "Temperature Tolerance (Cold)",
 					"reference": "DFA16",
 					"tags": [
 						"Advantage",
 						"Physical"
 					],
 					"points_per_level": 1,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to HT rolls to resist cold-related effects",
+							"amount": 1,
+							"per_level": true
+						}
+					],
 					"can_level": true,
 					"levels": 3,
 					"calc": {
@@ -500,14 +543,27 @@
 					}
 				},
 				{
-					"id": "tID8a_N-DDhtdyNAt",
-					"name": "Temperature Tolerance (Cold)",
+					"id": "ty_dyp2enqJZEXdvW",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tplsmFNNtQQPCrkfQ"
+					},
+					"name": "Temperature Tolerance (Heat)",
 					"reference": "DFA16",
 					"tags": [
 						"Advantage",
 						"Physical"
 					],
 					"points_per_level": 1,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to HT rolls to resist heat-related effects",
+							"amount": 1,
+							"per_level": true
+						}
+					],
 					"can_level": true,
 					"levels": 3,
 					"calc": {
