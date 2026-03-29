@@ -10,9 +10,17 @@
 			"container_type": "ancestry",
 			"children": [
 				{
-					"id": "t5uzwCMnplfdPgZjV",
-					"name": "Reduced Size",
+					"id": "tIHjWKA2yHJRS-I5w",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "t9JmDbmYS-RXMN3vt"
+					},
+					"name": "Decreased Size Modifier",
+					"reference": "B19",
 					"tags": [
+						"Attribute",
+						"Disadvantage",
 						"Physical"
 					],
 					"features": [

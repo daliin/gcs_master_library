@@ -441,10 +441,18 @@
 			"reference": "NF4",
 			"children": [
 				{
-					"id": "tT_FKf_SJaqzi-cGm",
+					"id": "tWZoNhyN_fALt68V4",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Norðlond/Norðlondr Fólk Traits.adq",
+						"id": "tjSR-BccbxciXoAAF"
+					},
 					"name": "Equipment Bond (@Specific Non-Combat Tool@)",
 					"reference": "NF4, DFA54",
 					"tags": [
+						"Dvergr",
+						"Dwarves",
+						"Gnome",
 						"Perk",
 						"Physical"
 					],

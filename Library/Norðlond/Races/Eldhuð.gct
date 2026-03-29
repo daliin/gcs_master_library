@@ -272,7 +272,12 @@
 			},
 			"children": [
 				{
-					"id": "tLbhMxEL330-UCW8F",
+					"id": "tu-LnXtigGdAxmgCp",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Norðlond/Norðlondr Fólk Traits.adq",
+						"id": "tPIDTTVM_hZWfXKL3"
+					},
 					"name": "Demon's Horns (Crushing)",
 					"reference": "NF14",
 					"reference_highlight": "Demon’s Horns",
@@ -284,7 +289,7 @@
 					"base_points": 5,
 					"weapons": [
 						{
-							"id": "wEOVeB6DD01TTn44P",
+							"id": "wrAagxEkkxFP4l72e",
 							"sv": 1,
 							"damage": {
 								"type": "cr",
@@ -313,7 +318,12 @@
 					}
 				},
 				{
-					"id": "tuqxPIqETkTmQxp48",
+					"id": "tTVqbrm-gzOsJcuS7",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Norðlond/Norðlondr Fólk Traits.adq",
+						"id": "t605CBG-3qS9RFMu9"
+					},
 					"name": "Demon's Horns (Impaling)",
 					"reference": "NF14",
 					"reference_highlight": "Demon’s Horns",
@@ -325,7 +335,7 @@
 					"base_points": 8,
 					"weapons": [
 						{
-							"id": "wFsuRYr2kmt9ASzRP",
+							"id": "w8mbCgRDD5ggkqK37",
 							"sv": 1,
 							"damage": {
 								"type": "imp",
@@ -352,7 +362,12 @@
 					}
 				},
 				{
-					"id": "tzbTYCplMJwYl1oLI",
+					"id": "tQ0sFMEdGDmllBOQJ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Norðlond/Norðlondr Fólk Traits.adq",
+						"id": "trG07KdUxp5S9t0db"
+					},
 					"name": "Extinguishing Touch",
 					"reference": "NF14",
 					"tags": [
@@ -366,9 +381,15 @@
 					}
 				},
 				{
-					"id": "tbKcc_8dXnhkC8rXx",
+					"id": "tlEwYPqaFa9mBj4Qi",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Norðlond/Norðlondr Fólk Traits.adq",
+						"id": "twHBn3mcIetAVj8Rn"
+					},
 					"name": "Fire Resistance",
 					"reference": "NF14",
+					"reference_highlight": "Fire Resistance",
 					"tags": [
 						"Advantage",
 						"Eldhuð",
@@ -383,7 +404,12 @@
 					}
 				},
 				{
-					"id": "ttLTdJdPGbVKgD28y",
+					"id": "tJe7lCOmdHMAMM64g",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Norðlond/Norðlondr Fólk Traits.adq",
+						"id": "t6gU8uE4LVhJIK2r7"
+					},
 					"name": "Flaming Touch",
 					"reference": "NF14",
 					"tags": [
@@ -408,67 +434,12 @@
 					}
 				},
 				{
-					"id": "tQfjJu0zh_VsaGHZh",
-					"name": "Imp's Tail (Piercing)",
-					"reference": "NF14",
-					"reference_highlight": "Imp's Tail",
-					"tags": [
-						"Advantage",
-						"Eldhuð",
-						"Physical"
-					],
-					"base_points": 5,
-					"weapons": [
-						{
-							"id": "w1ReU--cgk-sHTDge",
-							"sv": 1,
-							"damage": {
-								"type": "pi",
-								"st": "thr",
-								"modifier_per_die": 1
-							},
-							"reach": "C",
-							"calc": {
-								"damage": "thr (+1 per die) pi"
-							}
-						}
-					],
-					"calc": {
-						"points": 5
-					}
-				},
-				{
-					"id": "t-6_H_fIDMJeKi7qu",
-					"name": "Imp's Tail (Large Piercing)",
-					"reference": "NF14",
-					"reference_highlight": "Imp's Tail",
-					"tags": [
-						"Advantage",
-						"Eldhuð",
-						"Physical"
-					],
-					"base_points": 6,
-					"weapons": [
-						{
-							"id": "wqynKNgGRvMvjhyTg",
-							"sv": 1,
-							"damage": {
-								"type": "pi+",
-								"st": "thr",
-								"modifier_per_die": 1
-							},
-							"reach": "C",
-							"calc": {
-								"damage": "thr (+1 per die) pi+"
-							}
-						}
-					],
-					"calc": {
-						"points": 6
-					}
-				},
-				{
-					"id": "tkfiwD5DZcIKLIXli",
+					"id": "ty2FawPUx12ag0UD2",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Norðlond/Norðlondr Fólk Traits.adq",
+						"id": "teoTX4H-dznjAoiWs"
+					},
 					"name": "Imp's Tail (Impaling)",
 					"reference": "NF14",
 					"reference_highlight": "Imp's Tail",
@@ -480,7 +451,7 @@
 					"base_points": 8,
 					"weapons": [
 						{
-							"id": "w5lUBfQJrv_R_Hdpo",
+							"id": "warzPpzsgj0FWL-o2",
 							"sv": 1,
 							"damage": {
 								"type": "imp",
@@ -498,7 +469,82 @@
 					}
 				},
 				{
-					"id": "tMPMg_ixdN_y8pGbk",
+					"id": "twHFzLEnGQbJPBnlq",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Norðlond/Norðlondr Fólk Traits.adq",
+						"id": "tkQ4_WKw3mZz5tX7r"
+					},
+					"name": "Imp's Tail (Large Piercing)",
+					"reference": "NF14",
+					"reference_highlight": "Imp's Tail",
+					"tags": [
+						"Advantage",
+						"Eldhuð",
+						"Physical"
+					],
+					"base_points": 6,
+					"weapons": [
+						{
+							"id": "wE1r2cAYqcKJPzsR3",
+							"sv": 1,
+							"damage": {
+								"type": "pi+",
+								"st": "thr",
+								"modifier_per_die": 1
+							},
+							"reach": "C",
+							"calc": {
+								"damage": "thr (+1 per die) pi+"
+							}
+						}
+					],
+					"calc": {
+						"points": 6
+					}
+				},
+				{
+					"id": "t8mOkdFCC7SUGBCmo",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Norðlond/Norðlondr Fólk Traits.adq",
+						"id": "tfs6XU25scHIUVHNp"
+					},
+					"name": "Imp's Tail (Piercing)",
+					"reference": "NF14",
+					"reference_highlight": "Imp's Tail",
+					"tags": [
+						"Advantage",
+						"Eldhuð",
+						"Physical"
+					],
+					"base_points": 5,
+					"weapons": [
+						{
+							"id": "wBSeVq6cs4b-H9WWv",
+							"sv": 1,
+							"damage": {
+								"type": "pi",
+								"st": "thr",
+								"modifier_per_die": 1
+							},
+							"reach": "C",
+							"calc": {
+								"damage": "thr (+1 per die) pi"
+							}
+						}
+					],
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "tVUq2e2USwPnWK5FI",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Norðlond/Norðlondr Fólk Traits.adq",
+						"id": "tXefae8OaBx2ZzlWX"
+					},
 					"name": "Nimble Tail",
 					"reference": "NF14",
 					"tags": [
@@ -512,7 +558,12 @@
 					}
 				},
 				{
-					"id": "t3YXlAm8HEhz7PE72",
+					"id": "t_W4TZzFyqTZCYgB1",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Norðlond/Norðlondr Fólk Traits.adq",
+						"id": "tLpu4JAfeX1p-Dlo_"
+					},
 					"name": "Passing Appearance",
 					"reference": "NF14",
 					"tags": [

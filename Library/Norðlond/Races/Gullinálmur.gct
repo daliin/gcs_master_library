@@ -206,7 +206,7 @@
 					"name": "Ramming Speed",
 					"reference": "NF9",
 					"tags": [
-						"Gullinalmur",
+						"Gullinálmur",
 						"Perk",
 						"Physical"
 					],
@@ -243,7 +243,7 @@
 					"name": "Appearance",
 					"reference": "DFA47",
 					"tags": [
-						"Disadvantage",
+						"Advantage",
 						"Physical"
 					],
 					"modifiers": [

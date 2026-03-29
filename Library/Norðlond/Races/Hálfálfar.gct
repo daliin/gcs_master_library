@@ -71,12 +71,20 @@
 					}
 				},
 				{
-					"id": "t-0PsPCU8goK9ea4r",
+					"id": "tWOuSwFbeBFQnYo8c",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Norðlond/Norðlondr Fólk Traits.adq",
+						"id": "tJ12eFwtPTdPv4Xdf"
+					},
 					"name": "Acute Mage Sense",
 					"reference": "NF6",
-					"local_notes": "+1/level to Perception rolls ot sense changes in mana level or detect magical items.",
+					"local_notes": "+1/level to Perception rolls to sense changes in mana level or detect magical items.",
 					"tags": [
-						"Physical"
+						"Advantage",
+						"Hálfálfar",
+						"Mental",
+						"Supernatural"
 					],
 					"points_per_level": 2,
 					"can_level": true,
@@ -200,7 +208,7 @@
 					"reference": "NF6",
 					"tags": [
 						"Advantage",
-						"Halfalfar",
+						"Hálfálfar",
 						"Mental"
 					],
 					"points_per_level": 1,
@@ -282,7 +290,7 @@
 					"local_notes": "+1/level to Perception rolls to sense changes in mana level or detect magical items.",
 					"tags": [
 						"Advantage",
-						"Halfalfar",
+						"Hálfálfar",
 						"Mental",
 						"Supernatural"
 					],

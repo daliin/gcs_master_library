@@ -100,9 +100,17 @@
 					}
 				},
 				{
-					"id": "tiYBiCYAWZBNjWbWz",
-					"name": "Reduced Size",
+					"id": "t3oWgQAkkO-G5iKzo",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "t9JmDbmYS-RXMN3vt"
+					},
+					"name": "Decreased Size Modifier",
+					"reference": "B19",
 					"tags": [
+						"Attribute",
+						"Disadvantage",
 						"Physical"
 					],
 					"features": [

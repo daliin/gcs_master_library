@@ -540,10 +540,10 @@
 					}
 				},
 				{
-					"id": "tzjyAiHwQbF_0EL0w",
+					"id": "t77pHXEu0xbm_wlBk",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
-						"path": "gcs_master_library/Library/Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
 						"id": "ta_mWJeR8l4wIiE5U"
 					},
 					"name": "Wild Talent",

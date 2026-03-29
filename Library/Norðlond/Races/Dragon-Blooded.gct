@@ -70,17 +70,24 @@
 					}
 				},
 				{
-					"id": "tdxltD4AWvAnO_r6C",
+					"id": "tGfmAb4BEqkP7EhTE",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Norðlond/Norðlondr Fólk Traits.adq",
+						"id": "t9_Fu9-W--X-wpXE5"
+					},
 					"name": "Dragon's Breath",
 					"reference": "NF13",
 					"local_notes": "Spend 2 FP to breathe a 1-yard wide cone of flame",
 					"tags": [
+						"Advantage",
+						"Dragon-Blooded",
 						"Physical"
 					],
 					"base_points": 12,
 					"weapons": [
 						{
-							"id": "WqP1sHoco00wM3xLe",
+							"id": "WiudLQZOBjOXHFm9L",
 							"sv": 1,
 							"damage": {
 								"type": "burn",
@@ -137,15 +144,27 @@
 					}
 				},
 				{
-					"id": "tT7mKaIIJbnancIEb",
+					"id": "tKKNSNKX91gElML_8",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Dungeon Fantasy RPG/Dungeon Fantasy RPG Traits.adq",
+						"id": "tAL0OyJ7rtkOUXBq0"
+					},
 					"name": "Nictitating Membrane",
-					"reference": "NF13, DFM11",
-					"local_notes": "+1 to HT rolls concerning the eyes.",
+					"reference": "DFM11",
 					"tags": [
+						"Advantage",
+						"Exotic",
 						"Physical"
 					],
 					"points_per_level": 1,
 					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to all HT rolls concerning the eyes",
+							"amount": 1,
+							"per_level": true
+						},
 						{
 							"type": "dr_bonus",
 							"locations": [
